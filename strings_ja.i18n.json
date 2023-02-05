@@ -1,0 +1,430 @@
+{
+  "title": "Locket",
+  "setup": {
+    "signInWithApple": "Appleでサインイン",
+    "signInWithGoogle": "Googleでサインイン",
+    "signInWithTwitter": "Twitterでサインイン",
+    "signInWithInstagram": "Instagramでサインイン"
+  },
+  "profile": {
+    "nickname": {
+      "title": "ニックネームを教えて！",
+      "placeholder": "ニックネームを入力"
+    },
+    "profileImage": {
+      "title": "プロフィール画像を選択しよう！",
+      "permission": {
+        "title": "写真へのアクセスを許可してください",
+        "description": "Locketは写真へのアクセスを許可する必要があります",
+        "ok": "了解 👍"
+      }
+    },
+    "birthday": {
+      "title": "誕生日を教えて！",
+      "year": "年",
+      "month": "月",
+      "day": "日",
+      "errorMessage": {
+        "tryAgain": "もう一度トライしてください!",
+        "nonSenseMessage": "入力された日付がでたらめですよ 🤡",
+        "reallyBornInTitle": "本当に$year年に生まれたの?",
+        "reallyBornInMessage": "タイムトラベルご苦労さま🙏",
+        "ok": "了解 👍"
+      }
+    },
+    "gender": {
+      "title": "性別を教えて！"
+    },
+    "locketId": {
+      "title": "Locket IDを編集",
+      "placeholder": "Locket ID",
+      "errorMessage": {
+        "enterLocketId": "Locket IDを入力してください!",
+        "onlyAlphabet": "半角英数字のみで入力してください!",
+        "lessThan12": "12文字以内で入力してください!"
+      }
+    }
+  },
+  "settings": {
+    "title": "設定",
+    "account": {
+      "title": "アカウント",
+      "profileImage": "プロフィール画像",
+      "nickname": "ニックネーム",
+      "locketId": "Locket ID",
+      "birthday": "誕生日",
+      "gender": "性別",
+      "deleteAccount": {
+        "title": "アカウントを削除",
+        "warning": "本当に削除しますか？"
+      }
+    },
+    "ninjaMode": {
+      "title": "ニンジャモード",
+      "description": "$nicknameが閲覧できる内容を変更",
+      "option": {
+        "preciseLocation": {
+          "title": "正確な位置",
+          "concise": "正確に",
+          "description": "あなたの今いる場所が正確に表示されます"
+        },
+        "blurredLocation": {
+          "title": "「あいまい」な位置",
+          "concise": "あいまい",
+          "description": "「あいまい」に設定した友達には、あなたの今いる場所が大まかにリアルタイムで表示されます",
+          "warning": "あなたが「あいまい」に設定した友達には、そのことが分かります"
+        },
+        "frozenLocation": {
+          "title": "フリーズした位置",
+          "concise": "フリーズ",
+          "description": "「フリーズ」に設定した友達には、設定をする前のあなたの位置情報のまま、同じ場所が固定表示されます",
+          "warning": "あなたが「フリーズ」に設定した友達には、そのことが分かりません"
+        }
+      }
+    },
+    "privacy": {
+      "title": "プライバシー設定",
+      "optOutFromSuggestion": {
+        "title": "「知り合いかも」に表示されない",
+        "description": "「知り合いかもしれないユーザー」に表示されないようにするには、オンにしてください"
+      },
+      "constraintRequestOnlyWithID": {
+        "title": "Locket IDによるフレンド申請の制限",
+        "description": "オンにすると、共通のフレンドがいる人のみ、Locket IDであなたを追加できるようになります"
+      }
+    },
+    "about": {
+      "title": "Locketについて",
+      "privacyPolicy": "プライバシーポリシー",
+      "followUs": "詳しくはフォローしてね！"
+    },
+    "help": {
+      "title": "ヘルプ",
+      "contactForm": "お問合せフォーム"
+    },
+    "mapOption": {
+      "title": "マップオプション",
+      "mapOptions": {
+        "light": "ライトモード",
+        "dark": "ダークモード"
+      }
+    },
+    "memoryOfZenly": {
+      "title": "memory of zenly",
+      "memories": {
+        "cities": "行った都市（世界）の数",
+        "days": "zenlyを使った日数",
+        "nightPlaces": "Night Places数",
+        "streaks": "連続ログイン",
+        "countries": "行った国の数",
+        "completedCities": "100%都市数",
+        "screenshot": {
+          "title": "足跡のスクリーンショット",
+          "fullScreen": "全画面にとぶ"
+        }
+      },
+      "unlock": "フレンド招待数$numで解放",
+      "reflect": "zenlyのデータを反映させる",
+      "message": "このサービスは、\nzenlyを愛してやまない\nチームLocketが、\nみんなの楽しかった思い出、\nあしあとをそのまま残したい\nという願いを込めて\n盛り込みました。\nzenlyとのオフィシャルな\nサービスではありません。\n\nzenlyライフから\nLocketライフへ。\n\n良き旅路を。\n\nLocket開発チームより"
+    },
+    "streak": {
+      "text": "$streak 日間連続ログイン中"
+    },
+    "iconOption": {
+      "title": "アプリのアイコン",
+      "unlock": {
+        "title": "🔓 フレンドを作ってロック解除",
+        "condition": "$friendCount 人フレンドを追加しよう！"
+      }
+    }
+  },
+  "permission": {
+    "always": {
+      "title": "位置情報の設定を「常に許可」にしてください",
+      "step1": "この画面の一番下にあるボタンをタップして設定画面を開きます。",
+      "step2": "「常に許可」をタップ",
+      "step3": "Locketで正確な位置情報を使用できるよう、設定を変更してください。",
+      "step4": "Locketに戻ります",
+      "openSettings": "設定画面を開く",
+      "disclosure": "Locketは、フレンドとの位置情報の共有や、足跡の保存のために、アプリを閉じているときや使用していないときにも位置情報を収集します。"
+    },
+    "whenInUse": {
+      "title": "どこにいるの",
+      "findMe": "私を探して",
+      "whyCollectLocation": "Locketはなぜ位置情報を収集するのですか？",
+      "description": "Locketでは、フレンドがアプリを閉じているときでも、フレンドが何をしているのかを確認することができます。\n\n フレンドが同じ体験を楽しめるように、アプリが閉じているときにLocketがあなたの位置情報を利用できるようにしてください。"
+    },
+    "batteryOptimization": {
+      "title": "Locketのバックグラウンド処理を有効にする必要があります",
+      "buttonText": "バックグラウンド処理を有効にする"
+    },
+    "notification": {
+      "title": "通知権限を許可してください",
+      "decline": {
+        "title": "許可しない",
+        "confirm": "本当に良いですか？",
+        "description": "フレンドリクエストやメッセージの通知を受け取ることができなくなります\n不要な通知は設定からオフにすることができます"
+      }
+    },
+    "motionActivity": {
+      "title": "アクティビティ認識を有効にしましょう",
+      "titleiOS": "モーションとフィットネスを有効にしましょう",
+      "whyCollect": {
+        "title": "なぜLocketはモーションアクティビティを収集するのですか？",
+        "titleiOS": "なぜLocketはモーションとフィットネス情報を収集するのですか？",
+        "description": "Locketでは、フレンドに位置情報を共有するためにバックグラウンドで位置情報を取得します。\n\nバックグラウンドでの、バッテリ消費を抑えるためにLocketではデバイスの動きを検知し、位置情報取得回数を最適化します。"
+      }
+    }
+  },
+  "userDetail": {
+    "friendCount": "$count人のフレンド",
+    "previewFriendCount": "フレンド: $count人",
+    "add": "追加",
+    "deleteFriend": "フレンドから削除"
+  },
+  "addFriend": {
+    "title": "フレンド追加",
+    "addByLocketID": {
+      "title": "Locket IDで追加",
+      "search": {
+        "placeholder": "Locket IDを入力"
+      },
+      "result": {
+        "mutualFriends": "共通のフレンド",
+        "noMutualFriends": "0人",
+        "cannotSentRequest": "このユーザーにはリクエストを送れません",
+        "request": "リクエスト",
+        "requestSent": "リクエスト完了"
+      }
+    },
+    "shareIdOnInstagram": {
+      "title": "インスタでIDシェア"
+    },
+    "nthUser": "$nickName は ${registerNum}番目の\nLocketユーザーだよ！",
+    "whatAboutYou": "あなたは何番目？",
+    "receivedRequests": "受け取ったリクエスト",
+    "sentRequests": "送ったリクエスト",
+    "handleRequest": {
+      "accept": "承認",
+      "decline": "拒否",
+      "message": "$friendName からフレンドリクエストが届いたよ！"
+    }
+  },
+  "newFriend": {
+    "title": "$nickName がフレンドになったよ！"
+  },
+  "deleteFriend": {
+    "title": "フレンド削除"
+  },
+  "search": {
+    "title": "検索",
+    "friends": {
+      "title": "フレンド"
+    },
+    "friendSuggestion": {
+      "title": "知り合いかもしれないユーザー"
+    }
+  },
+  "fusion": {
+    "friendTitle": {
+      "one": "$count人のフレンド",
+      "other": "$count人のフレンド"
+    },
+    "withMe": "とあなた",
+    "you": "あなた",
+    "areHere": "がここにいます"
+  },
+  "chat": {
+    "addGroup": {
+      "selectFriends": "追加するフレンドを選択:"
+    },
+    "addMembers": {
+      "add": "追加(${count})"
+    },
+    "firstMessage": "メッセージを送ろう！",
+    "placeholder": "メッセージを入力",
+    "info": {
+      "edit": {
+        "title": "新しいグループ名を教えてね！",
+        "placeholder": "グループ名を入力"
+      },
+      "inviteGroup": {
+        "title": "グループに追加",
+        "yourFriends": "あなたの友達"
+      },
+      "mute": "ミュート",
+      "leave": "抜ける",
+      "memberCount": "$count 人のメンバー",
+      "leaveDialog": {
+        "title": "グループから抜ける",
+        "warning": "本当に抜けますか？"
+      }
+    },
+    "joined": "$names がチャットに参加",
+    "left": "$name がチャットを退出",
+    "readMembers": "$readMemberNames が閲覧",
+    "whenNoFriend": {
+      "addFriend": "フレンドを追加して",
+      "letsChat": "チャットを始めよう！",
+      "shareId": "インスタストーリーでIDをシェア"
+    }
+  },
+  "userBlock": {
+    "block": "ブロック",
+    "unBlock": "ブロック解除"
+  },
+  "userRelation": {
+    "myself": "あなた",
+    "friend": "フレンド",
+    "pendingRequest": "招待されています",
+    "requested": "招待中",
+    "blocked": "ブロックされています",
+    "blocking": "ブロック中"
+  },
+  "gender": {
+    "male": "男性",
+    "female": "女性",
+    "other": "その他",
+    "noAnswer": "回答しない"
+  },
+  "birthday": {
+    "noAnswer": "回答しない"
+  },
+  "place": {
+    "school": "学校",
+    "workplace": "職場",
+    "nightPlace": "寝所",
+    "home": "家",
+    "isYourPlace": "ここは$placeNameですか?",
+    "notYourPlace": "ここは$placeNameではありませんか?",
+    "neverShowThisPlace": "二度と自分のマップに表示しない",
+    "relocate": "$placeNameを変更する",
+    "youWereThere": "$timeそこにいました",
+    "changePlace": "$placeNameを変更する",
+    "yesThisis": "はい、ここは私の$placeNameです",
+    "placeChangeLimitTitle": "今月はあと$n回更新できます",
+    "placeChangeLimitBody": "この場所は今月あと$n回更新できます。移動には時間がかかります 🙃",
+    "gotcha": "了解",
+    "placeChangeLimitReatchedTitle": "引っ越し中ですね 📦",
+    "placeChangeLimitReatchedBody": "引っ越しがちょっと早過ぎるようです。間違いがないか後ほどまた確認します",
+    "registerAs": "$placeNameとして登録",
+    "notRegister": "登録しない",
+    "isReallyOkToNotRegisterTitle": "マップからこの場所を非表示にする",
+    "isReallyOkToNotRegisterBody": "非表示は復元できないので、続行する前によく確認してね！",
+    "hideForever": "永久に非表示"
+  },
+  "delete": "削除",
+  "cancel": "キャンセル",
+  "next": "次へ",
+  "update": "更新",
+  "create": "作成",
+  "checkOutUpdate": "今後のアップデートに要注目！",
+  "ok": "OK",
+  "edit": "編集",
+  "or": "もしくは",
+  "error": {
+    "locketIdAlreadyTaken": "このIDは既に使われてるよ！🙅",
+    "oops": "おっと！",
+    "locketIdInvalidCharacters": "半角英数字以外は使えないよ！",
+    "failedUploadingImage": "画像のアップロードに失敗したよ... 通信環境の良いところで試してみてね！",
+    "networkError": "ネット繋がってる？",
+    "checkConnectionAndReboot": "接続を確認して再起動してみてね！🛠",
+    "alreadyFriends": "もうフレンドだよ！本当に仲がいいんだね🤩",
+    "selfRequest": "自分にはリクエストは送れないよ... 友達になってあげようか？🥺",
+    "duplicateRequest": "同じリクエストを何回も送らないで！🙅‍♀️",
+    "notFound": "見つからないよ🥺",
+    "checkIdAgain": "IDを確かめてリトライしてみて！",
+    "modifyLocketId": "Locket IDを修正",
+    "chatGroupAlreadyExists": "このチャットグループは既に作られてるよ！",
+    "system": {
+      "title": "システムエラー",
+      "message": "システムで不具合が発生しました。アプリを再起動してください。"
+    },
+    "input": "入力エラー"
+  },
+  "shareLink": "リンクをシェア",
+  "shareStory": "インスタでシェア",
+  "shareOnTwitter": "LocketIDは ${locketId} だよ！",
+  "idShareAddFriend": "$nickName とフレンドになろう！ #Locket #zenlyの次",
+  "duration": {
+    "year": {
+      "one": "$count年",
+      "other": "$count年"
+    },
+    "month": {
+      "one": "$countヶ月",
+      "other": "$countヶ月"
+    },
+    "day": {
+      "one": "$count日",
+      "other": "$count日"
+    },
+    "hour": {
+      "one": "$count時間",
+      "other": "$count時間"
+    },
+    "minute": {
+      "one": "$count分",
+      "other": "$count分"
+    },
+    "second": {
+      "one": "$count秒",
+      "other": "$count秒"
+    },
+    "ago": "前",
+    "now": "今"
+  },
+  "shortDuration": {
+    "year": "${count}年",
+    "month": "${count}ヶ月",
+    "day": "${count}日",
+    "hour": "${count}時間",
+    "minute": "${count}分",
+    "second": "${count}秒",
+    "ago": "前",
+    "now": "今"
+  },
+  "unitDuration": {
+    "year": "年",
+    "month": "ヶ月",
+    "day": "日",
+    "hour": "時間",
+    "minute": "分",
+    "second": "秒",
+    "ago": "前",
+    "now": "今"
+  },
+  "comingSoon": "Coming soon!",
+  "latestUpdate": {
+    "title": "アップデートがあるよ！"
+  },
+  "later": "あとで",
+  "pinInfo": {
+    "blurred": "あいまい"
+  },
+  "updateDialog": {
+    "later": "後で",
+    "essential": "必須のアップデート"
+  },
+  "announce": {
+    "twitter": {
+      "title": "使ってみてどう?",
+      "body": "TwitterでLocketの感想を教えて!",
+      "button": "ツイートする"
+    },
+    "instagram": {
+      "title": "インスタで友達にLocketIDをシェアしよう!",
+      "body": "",
+      "button": "ストーリーを作成"
+    },
+    "other": {},
+    "hideFor7Days": "7日間非表示にする"
+  },
+  "detail": "詳しく見る",
+  "stamps": {
+    "unlock": {
+      "title": "🔓 フレンドを作ってロック解除",
+      "condition": "$friendCount 人フレンドを追加しよう！\nフレンド追加キャンペーン実施中！\n抽選で豪華商品を当てよう！"
+    }
+  }
+}

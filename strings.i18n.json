@@ -1,0 +1,430 @@
+{
+  "title": "Locket",
+  "setup": {
+    "signInWithApple": "Sign in with Apple",
+    "signInWithGoogle": "Sign in with Google",
+    "signInWithTwitter": "Sign in with Twitter",
+    "signInWithInstagram": "Sign in with Instagram"
+  },
+  "profile": {
+    "nickname": {
+      "title": "Hi! what's your name?",
+      "placeholder": "Your name"
+    },
+    "profileImage": {
+      "title": "Choose your profile picture!",
+      "permission": {
+        "title": "allow access to photos",
+        "description": "Locket needs access to your photos to let you choose a profile picture",
+        "ok": "ok 👍"
+      }
+    },
+    "birthday": {
+      "title": "When's your birthday?",
+      "year": "year",
+      "month": "mo",
+      "day": "day",
+      "errorMessage": {
+        "tryAgain": "let's try that again",
+        "nonSenseMessage": "the date you entered doesn't make sense to me 🤡",
+        "reallyBornInTitle": "so you were born in $year, huh?",
+        "reallyBornInMessage": "so cool that you teleported here from the future 👽",
+        "ok": "ok"
+      }
+    },
+    "gender": {
+      "title": "Tell me your gender identity!"
+    },
+    "locketId": {
+      "title": "Edit your Locket ID",
+      "placeholder": "Locket ID",
+      "errorMessage": {
+        "enterLocketId": "enter Locket ID",
+        "onlyAlphabet": "only alphabet",
+        "lessThan12": "less than 12 characters"
+      }
+    }
+  },
+  "settings": {
+    "title": "settings",
+    "account": {
+      "title": "account",
+      "profileImage": "profile picture",
+      "nickname": "nickname",
+      "locketId": "Locket ID",
+      "birthday": "birthday",
+      "gender": "gender",
+      "deleteAccount": {
+        "title": "delete account",
+        "warning": "are you sure to delete?"
+      }
+    },
+    "ninjaMode": {
+      "title": "ninja mode",
+      "description": "Change what $nickname can see",
+      "option": {
+        "preciseLocation": {
+          "title": "PRECISE LOCATION",
+          "concise": "PRECISE",
+          "description": "friends set to \"precise\" will see your real time and accurate location"
+        },
+        "blurredLocation": {
+          "title": "BLURRED LOCATION",
+          "concise": "BLURRED",
+          "description": "friends set to \"blurred\" will see your real time location but in the general vicinity of where you are",
+          "warning": "FRIENDS SET TO \"BLURRED\" CAN SEE THAT YOU HAVE BLURRED THEM"
+        },
+        "frozenLocation": {
+          "title": "FROZEN LOCATION",
+          "concise": "FROZEN",
+          "description": "friends set to \"frozen\" will see the same fixed location as it was before you set your location.",
+          "warning": "FRIENDS SET TO \"FROZEN\" CAN'T SEE THAT YOU HAVE FROZEN THEM"
+        }
+      }
+    },
+    "privacy": {
+      "title": "privacy settings",
+      "optOutFromSuggestion": {
+        "title": "opt-out of lists of suggestions",
+        "description": "enable this setting if you do not want to appear in the \"you might know them\" lists"
+      },
+      "constraintRequestOnlyWithID": {
+        "title": "limit Locket ID friending",
+        "description": "only people that you share mutual friends with can add you by Locket ID"
+      }
+    },
+    "about": {
+      "title": "about Locket",
+      "privacyPolicy": "privacy policy",
+      "followUs": "follow us for more info!"
+    },
+    "help": {
+      "title": "help",
+      "contactForm": "contact form"
+    },
+    "mapOption": {
+      "title": "map option",
+      "mapOptions": {
+        "light": "light mode",
+        "dark": "dark mode"
+      }
+    },
+    "memoryOfZenly": {
+      "title": "memory of zenly",
+      "memories": {
+        "cities": "cities visited",
+        "days": "days with zenly",
+        "nightPlaces": "Night Places",
+        "streaks": "login streak",
+        "countries": "countries visited",
+        "completedCities": "cities completed",
+        "screenshot": {
+          "title": "screenshot of footprint",
+          "fullScreen": "enter full screen"
+        }
+      },
+      "unlock": "unlock with $num friends invited",
+      "reflect": "reflect zenly data",
+      "message": "This service was provided by team Locket, who loves zenly, with the hope of preserving everyone's fun memories and footprints as they are.\nThis is NOT an official service of zenly.\n\nFrom zenly Life\nto Locket Life.\n\nHave a wonderful journey with us.\n\nFrom the Locket Development Team"
+    },
+    "streak": {
+      "text": "$streak day login streak"
+    },
+    "iconOption": {
+      "title": "APP ICON",
+      "unlock": {
+        "title": "🔓 Meet the conditions and unlock",
+        "condition": "Make $friendCount friends!"
+      }
+    }
+  },
+  "permission": {
+    "always": {
+      "title": "set location to \"Always\"",
+      "step1": "open settings via the button below",
+      "step2": "then tap on 'Always'",
+      "step3": "change your settings so that Locket can use your accurate location",
+      "step4": "back to Locket",
+      "openSettings": "open settings",
+      "disclosure": "Locket collects location data to enable location sharing with friends, saving footprints of yourselves even when the app is closed or not in use."
+    },
+    "whenInUse": {
+      "title": "where are you?",
+      "findMe": "find me",
+      "whyCollectLocation": "why does Locket collect location data?",
+      "description": "Locket allows you to see what your friends are doing even when they have the app closed.\n\nPlease allow Locket to use your location when the app is closed so that your friends can enjoy the same experience."
+    },
+    "batteryOptimization": {
+      "title": "background processing of Locket must be enabled",
+      "buttonText": "enable background processing"
+    },
+    "notification": {
+      "title": "allow notifications",
+      "decline": {
+        "title": "don't allow",
+        "confirm": "are you sure?",
+        "description": "you will no longer receive notifications for friend requests and messages\nyou can turn off unwanted notifications from the settings."
+      }
+    },
+    "motionActivity": {
+      "title": "enable activity recognition",
+      "titleiOS": "enable motion & fitness",
+      "whyCollect": {
+        "title": "why does Locket collect motion activity data?",
+        "titleiOS": "why does Locket collect motion & fitness data?",
+        "description": "Locket obtains location in the background to share location with friends.\n\nIn order to reduce battery consumption in the background, Locket optimizes the number of location fetches by capturing motion activity."
+      }
+    }
+  },
+  "userDetail": {
+    "friendCount": "$count FRIENDS",
+    "previewFriendCount": "$count friends on Locket",
+    "add": "ADD",
+    "deleteFriend": "Delete Friend"
+  },
+  "addFriend": {
+    "title": "add friends",
+    "addByLocketID": {
+      "title": "by Locket ID",
+      "search": {
+        "placeholder": "Locket ID"
+      },
+      "result": {
+        "mutualFriends": "mutual friends",
+        "noMutualFriends": "0 people",
+        "cannotSentRequest": "cannot send request to this user",
+        "request": "REQUEST SENT",
+        "requestSent": "request completed"
+      }
+    },
+    "shareIdOnInstagram": {
+      "title": "share ID on Instagram"
+    },
+    "nthUser": "$nickName is ${registerNum}-th user on Locket!",
+    "whatAboutYou": "How about you?",
+    "receivedRequests": "REQUESTS RECEIVED",
+    "sentRequests": "REQUESTS SENT",
+    "handleRequest": {
+      "accept": "ACCEPT",
+      "decline": "DECLINE",
+      "message": "you got a friend request from $friendName!"
+    }
+  },
+  "newFriend": {
+    "title": "$nickName is now your friend!"
+  },
+  "deleteFriend": {
+    "title": "delete friend"
+  },
+  "search": {
+    "title": "search",
+    "friends": {
+      "title": "FRIENDS"
+    },
+    "friendSuggestion": {
+      "title": "YOU MIGHT KNOW THEM"
+    }
+  },
+  "fusion": {
+    "friendTitle": {
+      "one": "$count friend",
+      "other": "$count friends"
+    },
+    "withMe": " and you",
+    "you": "you",
+    "areHere": "are here"
+  },
+  "chat": {
+    "addGroup": {
+      "selectFriends": "select friends to add:"
+    },
+    "addMembers": {
+      "add": "add(${count})"
+    },
+    "firstMessage": "send a message!",
+    "placeholder": "message",
+    "info": {
+      "edit": {
+        "title": "Rename the group?",
+        "placeholder": "Group name"
+      },
+      "inviteGroup": {
+        "title": "add to group",
+        "yourFriends": "YOUR FRIENDS"
+      },
+      "mute": "mute",
+      "leave": "leave",
+      "memberCount": "$count member",
+      "leaveDialog": {
+        "title": "Leave this group",
+        "warning": "Are you sure to leave?"
+      }
+    },
+    "joined": "$names joined the chat!",
+    "left": "$name has left the chat",
+    "readMembers": "read by $readMemberNames",
+    "whenNoFriend": {
+      "addFriend": "Add friends",
+      "letsChat": "and start chat!",
+      "shareId": "share ID on Instragram story"
+    }
+  },
+  "userBlock": {
+    "block": "block",
+    "unBlock": "unblock"
+  },
+  "userRelation": {
+    "myself": "you",
+    "friend": "friend",
+    "pendingRequest": "invited",
+    "requested": "requested",
+    "blocked": "blocked",
+    "blocking": "blocking"
+  },
+  "gender": {
+    "male": "male",
+    "female": "female",
+    "other": "others",
+    "noAnswer": "no answer"
+  },
+  "birthday": {
+    "noAnswer": "no answer"
+  },
+  "place": {
+    "school": "school",
+    "workplace": "workplace",
+    "nightPlace": "nightPlace",
+    "home": "home",
+    "isYourPlace": "is this your current $placeName?",
+    "notYourPlace": "not your current $placeName?",
+    "neverShowThisPlace": "never show this place on my map",
+    "relocate": "relocate $placeName",
+    "youWereThere": "you were there for $time",
+    "changePlace": "relocate $placeName",
+    "yesThisis": "yesm this is my $placeName",
+    "placeChangeLimitTitle": "$n updates remaining this month",
+    "placeChangeLimitBody": "you can only update this place $n more times this month, moving taks time 🙃",
+    "gotcha": "gotcha",
+    "placeChangeLimitReatchedTitle": "you're making moves 📦",
+    "placeChangeLimitReatchedBody": "you're moving a little too fast, I'm going to have to ask you to try again later because moving takes time",
+    "registerAs": "register as $placeName",
+    "notRegister": "do not register",
+    "isReallyOkToNotRegisterTitle": "hide this place from my map",
+    "isReallyOkToNotRegisterBody": "once it's gone, it's gone. so make sure you really want to hide it!!",
+    "hideForever": "hide forever"
+  },
+  "delete": "delete",
+  "cancel": "cancel",
+  "next": "next",
+  "update": "update",
+  "create": "create",
+  "checkOutUpdate": "stay tuned for future updates!",
+  "ok": "OK",
+  "edit": "edit",
+  "or": "or",
+  "error": {
+    "locketIdAlreadyTaken": "this id is already taken!🙅",
+    "oops": "Oops!",
+    "locketIdInvalidCharacters": "There's a character in there you can't use! Use numbers or alphabets!",
+    "failedUploadingImage": "Image upload failed. Please try again with a good internet connection.",
+    "networkError": "Are you online?",
+    "checkConnectionAndReboot": "Check your connections and try rebooting!🛠",
+    "alreadyFriends": "You are already friends, You are so close!🤩",
+    "selfRequest": "You can't send a request to yourself... Would you like me to be your friend?🥺",
+    "duplicateRequest": "Don't send the same request more than twice!🙅‍♀️",
+    "notFound": "User not found 🥺",
+    "checkIdAgain": "Check typed ID and try again!",
+    "modifyLocketId": "Amend Locket ID",
+    "chatGroupAlreadyExists": "This chat group already exists!",
+    "system": {
+      "title": "System error",
+      "message": "A malfunction has occurred in the system. Please restart the application."
+    },
+    "input": "Input error"
+  },
+  "shareLink": "Share link",
+  "shareStory": "Share on Instagram",
+  "shareOnTwitter": "My LocketID is ${locketId}!",
+  "idShareAddFriend": "$nickName is waiting for you! #Locket #next zenly",
+  "duration": {
+    "year": {
+      "one": "${count}year",
+      "other": "${count}years"
+    },
+    "month": {
+      "one": "${count}month",
+      "other": "${count}months"
+    },
+    "day": {
+      "one": "${count}day",
+      "other": "${count}days"
+    },
+    "hour": {
+      "one": "${count}hour",
+      "other": "${count}hours"
+    },
+    "minute": {
+      "one": "${count}minute",
+      "other": "${count}minutes"
+    },
+    "second": {
+      "one": "${count}second",
+      "other": "${count}seconds"
+    },
+    "ago": "ago",
+    "now": "now"
+  },
+  "shortDuration": {
+    "year": "${count}Y",
+    "month": "${count}M",
+    "day": "${count}D",
+    "hour": "${count}H",
+    "minute": "${count}M",
+    "second": "${count}S",
+    "ago": "ago",
+    "now": "now"
+  },
+  "unitDuration": {
+    "year": "Y",
+    "month": "M",
+    "day": "D",
+    "hour": "H",
+    "minute": "M",
+    "second": "S",
+    "ago": "ago",
+    "now": "now"
+  },
+  "comingSoon": "Coming soon!",
+  "latestUpdate": {
+    "title": "Latest update found!"
+  },
+  "later": "later",
+  "pinInfo": {
+    "blurred": "blurred"
+  },
+  "updateDialog": {
+    "later": "later",
+    "essential": "need to install"
+  },
+  "announce": {
+    "twitter": {
+      "title": "How was your experience of actually using Locket?",
+      "body": "Please tell us your opinion on Twitter!🐦",
+      "button": "Tweet"
+    },
+    "instagram": {
+      "title": "Let's share your LocketID on Instagram!",
+      "body": "",
+      "button": "Create story"
+    },
+    "other": {},
+    "hideFor7Days": "hide for 7 days"
+  },
+  "detail": "see detail",
+  "stamps": {
+    "unlock": {
+      "title": "🔓 Meet the conditions and unlock",
+      "condition": "Make $friendCount friends!"
+    }
+  }
+}
