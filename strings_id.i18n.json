@@ -106,17 +106,19 @@
       "title": "Pilihan Maps",
       "mapOptions": {
         "light": "Mode Terang",
-        "dark": "Mode Gelap"
+        "dark": "Mode Gelap",
+        "satellite": "Mode Satellite"
       }
     },
     "memoryOfZenly": {
       "title": "Memori dari Zenly",
       "memories": {
-        "cities": "Kota-kota yang dikunjungi",
+        "domesticCities": "Jumlah kota domestik yang dikunjungi",
         "days": "Hari-hari dengan Zenly",
         "nightPlaces": "Tempat Menginap",
         "streaks": "Login Streak 🔥",
         "countries": "Negara-negara yang dikunjungi",
+        "globalCities": "Jumlah kota di dunia yang dikunjungi",
         "completedCities": "Negara-negara yang dikunjungi",
         "screenshot": {
           "title": "Screenshot jejak kaki",
@@ -200,6 +202,10 @@
     "shareIdOnInstagram": {
       "title": "Berbagi ID di Instagram"
     },
+    "bump": {
+      "title": "tambahkan dengan bump",
+      "content": "Goyangkan ponsel Anda dengan teman-teman Anda!"
+    },
     "nthUser": "$nickName adalah pengguna Locket ke-${registerNum}!",
     "whatAboutYou": "Anda nomor berapa?",
     "receivedRequests": "Permintaan Diterima",
@@ -207,11 +213,11 @@
     "handleRequest": {
       "accept": "Terima",
       "decline": "Tolak",
-      "message": "Kamu dapat permintaan pertemanan dari $friendName!"
+      "message": "Kamu dapat permintaan pertemanan dari\n$friendName!"
     }
   },
   "newFriend": {
-    "title": "$nickName sekarang jadi temanmu!"
+    "title": "$nickName\nsekarang jadi temanmu!"
   },
   "deleteFriend": {
     "title": "Hapus Teman"
@@ -242,6 +248,7 @@
       "add": "menambahkan(${count})"
     },
     "firstMessage": "Kirim pesan!",
+    "image": "gambar",
     "placeholder": "Pesan",
     "info": {
       "edit": {
@@ -266,7 +273,13 @@
     "whenNoFriend": {
       "addFriend": "tambahkan teman Anda",
       "letsChat": "mari kita mulai mengobrol!",
+      "findLocation": "mari kita ketahui di mana mereka berada!",
       "shareId": "bagikan ID saya"
+    },
+    "download": {
+      "title": "unduh",
+      "success": "Gambar sudah disimpan!",
+      "error": "Gagal menyimpan gambar"
     }
   },
   "userBlock": {
@@ -324,11 +337,14 @@
   "or": "atau",
   "error": {
     "locketIdAlreadyTaken": "ID ini sudah digunakan",
+    "locketIdNotAllowed": "ID Liontin ini tidak diperbolehkan. Silakan pilih yang lain.",
+    "nicknameNotAllowed": "Nama panggilan ini tidak diperbolehkan. Pilihlah nama panggilan yang lain.",
     "oops": "Oops!",
     "locketIdInvalidCharacters": "Ada karakter yang tidak bisa kamu gunakan nih! Gunakan angka atau huruf",
     "failedUploadingImage": "Unggah gambar gagal. Silahkan coba lagi dengan internet yang stabil.",
     "networkError": "Apakah kamu online?",
     "checkConnectionAndReboot": "Cek koneksi mu dan segera nyalakan ulang perangkatmu!🛠",
+    "sessionExpired": "Sesi berakhir, kembali ke layar masuk",
     "alreadyFriends": "Kalian sudah berteman, Kalian sangat dekat!🤩",
     "selfRequest": "Kamu tidak bisa mengirim permintaan ke diri sendiri... Apakah kamu mau aku jadi temanmu?🥺",
     "duplicateRequest": "Jangan mengirim permintaan yang sama lebih dari dua kali!🙅‍♀️",
@@ -416,6 +432,11 @@
       "title": "Bagikan LocketID dengan teman-teman Anda di Instagram!",
       "body": "",
       "button": "Membuat cerita."
+    },
+    "review": {
+      "title": "Bagaimana Anda menyukai liontin ini?",
+      "body": "Tolong tuliskan ulasan Anda di toko aplikasi!",
+      "button": "Buka Toko"
     },
     "other": {},
     "hideFor7Days": "Bersembunyi selama 7 hari"

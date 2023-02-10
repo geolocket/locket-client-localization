@@ -106,17 +106,19 @@
       "title": "マップオプション",
       "mapOptions": {
         "light": "ライトモード",
-        "dark": "ダークモード"
+        "dark": "ダークモード",
+        "satellite": "衛星"
       }
     },
     "memoryOfZenly": {
       "title": "memory of zenly",
       "memories": {
-        "cities": "行った都市（世界）の数",
+        "domesticCities": "行った都市（国内）の数",
         "days": "zenlyを使った日数",
         "nightPlaces": "Night Places数",
         "streaks": "連続ログイン",
         "countries": "行った国の数",
+        "globalCities": "行った都市（世界）の数",
         "completedCities": "100%都市数",
         "screenshot": {
           "title": "足跡のスクリーンショット",
@@ -200,6 +202,10 @@
     "shareIdOnInstagram": {
       "title": "インスタでIDシェア"
     },
+    "bump": {
+      "title": "bumpで追加",
+      "content": "フレンドと一緒に\nスマホを振ろう！"
+    },
     "nthUser": "$nickName は ${registerNum}番目の\nLocketユーザーだよ！",
     "whatAboutYou": "あなたは何番目？",
     "receivedRequests": "受け取ったリクエスト",
@@ -207,11 +213,11 @@
     "handleRequest": {
       "accept": "承認",
       "decline": "拒否",
-      "message": "$friendName からフレンドリクエストが届いたよ！"
+      "message": "$friendName\nからフレンドリクエストが届いたよ！"
     }
   },
   "newFriend": {
-    "title": "$nickName がフレンドになったよ！"
+    "title": "$nickName\nがフレンドになったよ！"
   },
   "deleteFriend": {
     "title": "フレンド削除"
@@ -242,6 +248,7 @@
       "add": "追加(${count})"
     },
     "firstMessage": "メッセージを送ろう！",
+    "image": "画像",
     "placeholder": "メッセージを入力",
     "info": {
       "edit": {
@@ -266,7 +273,13 @@
     "whenNoFriend": {
       "addFriend": "フレンドを追加して",
       "letsChat": "チャットを始めよう！",
+      "findLocation": "居場所を交換しよう！",
       "shareId": "インスタストーリーでIDをシェア"
+    },
+    "download": {
+      "title": "ダウンロード",
+      "success": "画像を保存したよ！",
+      "error": "画像の保存に失敗したよ..."
     }
   },
   "userBlock": {
@@ -324,11 +337,14 @@
   "or": "もしくは",
   "error": {
     "locketIdAlreadyTaken": "このIDは既に使われてるよ！🙅",
+    "locketIdNotAllowed": "このIDはしようできないよ！他のIDを試してね！",
+    "nicknameNotAllowed": "このニックネームは使用できないよ！他のニックネームを試してね！",
     "oops": "おっと！",
     "locketIdInvalidCharacters": "半角英数字以外は使えないよ！",
     "failedUploadingImage": "画像のアップロードに失敗したよ... 通信環境の良いところで試してみてね！",
     "networkError": "ネット繋がってる？",
     "checkConnectionAndReboot": "接続を確認して再起動してみてね！🛠",
+    "sessionExpired": "セッションが切れました、ログイン画面に戻ります",
     "alreadyFriends": "もうフレンドだよ！本当に仲がいいんだね🤩",
     "selfRequest": "自分にはリクエストは送れないよ... 友達になってあげようか？🥺",
     "duplicateRequest": "同じリクエストを何回も送らないで！🙅‍♀️",
@@ -416,6 +432,11 @@
       "title": "インスタで友達にLocketIDをシェアしよう!",
       "body": "",
       "button": "ストーリーを作成"
+    },
+    "review": {
+      "title": "使ってみてどう？",
+      "body": "Storeでレビューお願い!",
+      "button": "レビューを書く"
     },
     "other": {},
     "hideFor7Days": "7日間非表示にする"

@@ -106,17 +106,19 @@
       "title": "map option",
       "mapOptions": {
         "light": "light mode",
-        "dark": "dark mode"
+        "dark": "dark mode",
+        "satellite": "satellite"
       }
     },
     "memoryOfZenly": {
       "title": "memory of zenly",
       "memories": {
-        "cities": "cities visited",
+        "domesticCities": "number of domestic cities visited",
         "days": "days with zenly",
         "nightPlaces": "Night Places",
         "streaks": "login streak",
         "countries": "countries visited",
+        "globalCities": "number of global cities visited",
         "completedCities": "cities completed",
         "screenshot": {
           "title": "screenshot of footprint",
@@ -200,6 +202,10 @@
     "shareIdOnInstagram": {
       "title": "share ID on Instagram"
     },
+    "bump": {
+      "title": "add by bump",
+      "content": "shake your phone with your friends!"
+    },
     "nthUser": "$nickName is ${registerNum}-th user on Locket!",
     "whatAboutYou": "How about you?",
     "receivedRequests": "REQUESTS RECEIVED",
@@ -207,11 +213,11 @@
     "handleRequest": {
       "accept": "ACCEPT",
       "decline": "DECLINE",
-      "message": "you got a friend request from $friendName!"
+      "message": "you got a friend request from\n$friendName!"
     }
   },
   "newFriend": {
-    "title": "$nickName is now your friend!"
+    "title": "$nickName\nis now your friend!"
   },
   "deleteFriend": {
     "title": "delete friend"
@@ -242,6 +248,7 @@
       "add": "add(${count})"
     },
     "firstMessage": "send a message!",
+    "image": "image",
     "placeholder": "message",
     "info": {
       "edit": {
@@ -266,7 +273,13 @@
     "whenNoFriend": {
       "addFriend": "Add friends",
       "letsChat": "and start chat!",
+      "findLocation": "and find where they are!",
       "shareId": "share ID on Instragram story"
+    },
+    "download": {
+      "title": "download",
+      "success": "The image has been saved!",
+      "error": "Failed to save the image"
     }
   },
   "userBlock": {
@@ -324,11 +337,14 @@
   "or": "or",
   "error": {
     "locketIdAlreadyTaken": "this id is already taken!🙅",
+    "locketIdNotAllowed": "this locketId not allowed. Please choose a different one.",
+    "nicknameNotAllowed": "this nickname not allowed. Please choose a different one.",
     "oops": "Oops!",
     "locketIdInvalidCharacters": "There's a character in there you can't use! Use numbers or alphabets!",
     "failedUploadingImage": "Image upload failed. Please try again with a good internet connection.",
     "networkError": "Are you online?",
     "checkConnectionAndReboot": "Check your connections and try rebooting!🛠",
+    "sessionExpired": "Session has expired, return to login screen",
     "alreadyFriends": "You are already friends, You are so close!🤩",
     "selfRequest": "You can't send a request to yourself... Would you like me to be your friend?🥺",
     "duplicateRequest": "Don't send the same request more than twice!🙅‍♀️",
@@ -416,6 +432,11 @@
       "title": "Let's share your LocketID on Instagram!",
       "body": "",
       "button": "Create story"
+    },
+    "review": {
+      "title": "How do you like the locket?",
+      "body": "Please write us your review in the app store!",
+      "button": "Open Store"
     },
     "other": {},
     "hideFor7Days": "hide for 7 days"
