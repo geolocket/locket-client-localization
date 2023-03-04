@@ -60,7 +60,7 @@
       }
     },
     "ninjaMode": {
-      "title": "ninja mode",
+      "title": "ninjaMode",
       "description": "Change what $nickname can see",
       "option": {
         "preciseLocation": {
@@ -80,7 +80,8 @@
           "description": "friends set to \"frozen\" will see the same fixed location as it was before you set your location.",
           "warning": "FRIENDS SET TO \"FROZEN\" CAN'T SEE THAT YOU HAVE FROZEN THEM"
         }
-      }
+      },
+      "selectAll": "select all"
     },
     "privacy": {
       "title": "privacy settings",
@@ -96,6 +97,9 @@
     "about": {
       "title": "about Locket",
       "privacyPolicy": "privacy policy",
+      "homepage": "website",
+      "review": "rate Locket",
+      "version": "version",
       "followUs": "follow us for more info!"
     },
     "help": {
@@ -113,12 +117,12 @@
     "memoryOfZenly": {
       "title": "memory of zenly",
       "memories": {
-        "domesticCities": "number of domestic cities visited",
+        "domesticCities": "domestic cities visited",
         "days": "days with zenly",
         "nightPlaces": "Night Places",
         "streaks": "login streak",
         "countries": "countries visited",
-        "globalCities": "number of global cities visited",
+        "globalCities": "global cities visited",
         "completedCities": "cities completed",
         "screenshot": {
           "title": "screenshot of footprint",
@@ -128,6 +132,44 @@
       "unlock": "unlock with $num friends invited",
       "reflect": "reflect zenly data",
       "message": "This service was provided by team Locket, who loves zenly, with the hope of preserving everyone's fun memories and footprints as they are.\nThis is NOT an official service of zenly.\n\nFrom zenly Life\nto Locket Life.\n\nHave a wonderful journey with us.\n\nFrom the Locket Development Team"
+    },
+    "roadmap": {
+      "title": "roadmap",
+      "category": {
+        "toDo": "to be implemented",
+        "done": "already implemented"
+      },
+      "start": {
+        "title": "Start",
+        "time": "End of Dec"
+      },
+      "versions": {
+        "v101": ["location sharing", "notifications", "user block"],
+        "v102": ["pin behavior"],
+        "v103": ["chat", "internationalization"],
+        "v105": ["id sharing (QR code)", "map options (light/dark)", "fusion"],
+        "v106": [
+          "ninja mode",
+          "search",
+          "friends you might know",
+          "add app icons",
+          "memory of zenly"
+        ],
+        "v110": ["mark on read", "announce", "stamps"],
+        "v130": [
+          "images in chat",
+          "satellite map",
+          "reflect zenly data",
+          "review page",
+          "fix fusion pin"
+        ],
+        "v140": ["bump", "improve stamp feature", "24h images"],
+        "v150": ["region name"],
+        "v160": ["what's up"],
+        "v170": ["improvement of location"],
+        "v180": ["pin animation"],
+        "tbd": ["explore", "streak", "rankings", "stamp mash", "place search"]
+      }
     },
     "streak": {
       "text": "$streak day login streak"
@@ -180,6 +222,7 @@
   },
   "userDetail": {
     "friendCount": "$count FRIENDS",
+    "mutualFriendCount": "$count MUTUAL FRIENDS",
     "previewFriendCount": "$count friends on Locket",
     "add": "ADD",
     "deleteFriend": "Delete Friend"
@@ -206,7 +249,7 @@
       "title": "add by bump",
       "content": "shake your phone with your friends!"
     },
-    "nthUser": "$nickName is ${registerNum}-th user on Locket!",
+    "nthUser": "$nickname is ${registerNum}-th user on Locket!",
     "whatAboutYou": "How about you?",
     "receivedRequests": "REQUESTS RECEIVED",
     "sentRequests": "REQUESTS SENT",
@@ -248,6 +291,7 @@
       "add": "add(${count})"
     },
     "firstMessage": "send a message!",
+    "clearChatHistory": "clear chat history",
     "image": "image",
     "placeholder": "message",
     "info": {
@@ -280,7 +324,15 @@
       "title": "download",
       "success": "The image has been saved!",
       "error": "Failed to save the image"
-    }
+    },
+    "camera": {
+      "permissionError": "You're not allowed access to the camera",
+      "openSettings": "Open Settings"
+    },
+    "playStamp": "tap to play emojis",
+    "receivedWhatsUp": "received what's up!",
+    "sentWhatsUp": "sent what's up!",
+    "receivedWhatsUpResponse": "received what's up response!"
   },
   "userBlock": {
     "block": "block",
@@ -318,8 +370,8 @@
     "placeChangeLimitTitle": "$n updates remaining this month",
     "placeChangeLimitBody": "you can only update this place $n more times this month, moving taks time 🙃",
     "gotcha": "gotcha",
-    "placeChangeLimitReatchedTitle": "you're making moves 📦",
-    "placeChangeLimitReatchedBody": "you're moving a little too fast, I'm going to have to ask you to try again later because moving takes time",
+    "placeChangeLimitReachedTitle": "you're making moves 📦",
+    "placeChangeLimitReachedBody": "you're moving a little too fast, I'm going to have to ask you to try again later because moving takes time",
     "registerAs": "register as $placeName",
     "notRegister": "do not register",
     "isReallyOkToNotRegisterTitle": "hide this place from my map",
@@ -438,7 +490,6 @@
       "body": "Please write us your review in the app store!",
       "button": "Open Store"
     },
-    "other": {},
     "hideFor7Days": "hide for 7 days"
   },
   "detail": "see detail",

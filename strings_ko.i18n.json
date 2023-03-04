@@ -1,0 +1,437 @@
+{
+  "title": "Locket",
+  "setup": {
+    "signInWithApple": "애플로 로그인",
+    "signInWithGoogle": "구글로 로그인",
+    "signInWithTwitter": "트위터로 로그인",
+    "signInWithInstagram": "인스타그램으로 로그인"
+  },
+  "profile": {
+    "nickname": { "title": "안녕! 이름이 뭐야?", "placeholder": "내 이름" },
+    "profileImage": {
+      "title": "프로필 사진을 골라봐!",
+      "permission": {
+        "title": "사진 접근 허용",
+        "description": "Locket은 너가 프로필 사진을 선택할 수 있도록 사진 접근 권한이 필요해",
+        "ok": "오케이 👍"
+      }
+    },
+    "birthday": {
+      "title": "생일이 언제야?",
+      "year": "년",
+      "month": "월",
+      "day": "일",
+      "errorMessage": {
+        "tryAgain": "다시 입력해 줘",
+        "nonSenseMessage": "입력한 날짜가 유효하지 않아 🤡",
+        "reallyBornInTitle": "아하, ${year}년도에 태어났구나?",
+        "reallyBornInMessage": "미래에서 왔다니 멋진데 👽",
+        "ok": "오케이"
+      }
+    },
+    "gender": { "title": "성별을 알려주세요" },
+    "locketId": {
+      "title": "아이디 바꾸기",
+      "placeholder": "Locket ID",
+      "errorMessage": {
+        "enterLocketId": "Locket ID 입력",
+        "onlyAlphabet": "알파벳만",
+        "lessThan12": "12자 이하"
+      }
+    }
+  },
+  "settings": {
+    "title": "설정",
+    "account": {
+      "title": "계정",
+      "profileImage": "프로파일 사진",
+      "nickname": "닉네임",
+      "locketId": "Locket ID",
+      "birthday": "생일일",
+      "gender": "성별",
+      "deleteAccount": { "title": "계정 삭제", "warning": "정말 삭제할겁니까?" }
+    },
+    "ninjaMode": {
+      "title": "닌자 모드",
+      "description": "${nickname}이 볼 수 있는 내용 변경",
+      "option": {
+        "preciseLocation": {
+          "title": "투명 모드 위치",
+          "concise": "투명 모드",
+          "description": "친구들은 내 위치를 정확하게 볼 수 있습니다"
+        },
+        "blurredLocation": {
+          "title": "안개 모드 위치",
+          "concise": "안개 모드",
+          "description": "\\\"안개 모드\"\\에 설정된 친구들은 실시간 내 위치를 볼 수는 있으나, 대략적으로만 볼 수 있습니다",
+          "warning": "\\\"안개 모드\"에에 설정된 친구들은 내가 그 친구들을 안개 모드로 설정했음을 알 수 있습니다."
+        },
+        "frozenLocation": {
+          "title": "얼음 모드 위치",
+          "concise": "얼음 모드",
+          "description": "\\\"얼음 모드\\\"에 설정된 친구들은 설정 이전에 공유된 내 위치를 볼 수 있습니다",
+          "warning": "\\\"얼음 모드\\\"에 설정된 친구들은 내가 그 친구들을 얼음 모드로 설정했는지 어떤지 알 수 없습니다"
+        }
+      },
+      "selectAll": "select all"
+    },
+    "privacy": {
+      "title": "개인정보 설정",
+      "optOutFromSuggestion": {
+        "title": "알 수도 있는 친구 목록에 표시되지 않기",
+        "description": "\\\"알 수도 있는 친구\"\\ 목록에 표시되지 않을려면 설정을 활성화하세요"
+      },
+      "constraintRequestOnlyWithID": {
+        "title": "Locket ID에 의한 친구 신청 제한하기",
+        "description": "공통 친구를 공유하는 사람들만 Locket ID로 너를 추가할 수 있어"
+      }
+    },
+    "about": {
+      "title": "Locket에 관해서",
+      "privacyPolicy": "개인정보 보호정책",
+      "homepage": "website",
+      "review": "Rate Locket",
+      "version": "version",
+      "followUs": "더 많은 정보를 위해서 구독해줘!"
+    },
+    "help": { "title": "도움말", "contactForm": "문의하기" },
+    "mapOption": {
+      "title": "지도 옵션",
+      "mapOptions": {
+        "light": "라이트 모드",
+        "dark": "다크 모드",
+        "satellite": "위성 모드"
+      }
+    },
+    "memoryOfZenly": {
+      "title": "Zenly와의 추억",
+      "memories": {
+        "domesticCities": "방문한 국내 도시의 수",
+        "days": "Zenly와 함께한 날",
+        "nightPlaces": "숙소",
+        "streaks": "연속 로그인",
+        "countries": "방문한 나라",
+        "globalCities": "방문한 세계 도시의 수",
+        "completedCities": "완료한 도시들",
+        "screenshot": {
+          "title": "발자국 스크린샷",
+          "fullScreen": "화면 확대하기"
+        }
+      },
+      "unlock": "${num}명의 친구를 초대하여 해금하기",
+      "reflect": "Zenly 데이터 반영하기",
+      "message": "해당 서비스는 저희 팀이 제공했습니다"
+    },
+    "roadmap": {
+      "title": "roadmap",
+      "category": {
+        "toDo": "to be implemented",
+        "done": "already implemented"
+      },
+      "start": {
+        "title": "Start",
+        "time": "End of Dec"
+      },
+      "versions": {
+        "v101": ["location sharing", "notifications", "user block"],
+        "v102": ["pin behavior"],
+        "v103": ["chat", "internationalization"],
+        "v105": ["id sharing (QR code)", "map options (light/dark)", "fusion"],
+        "v106": [
+          "ninja mode",
+          "search",
+          "friends you might know",
+          "add app icons",
+          "memory of zenly"
+        ],
+        "v110": ["mark on read", "announce", "stamps"],
+        "v130": [
+          "images in chat",
+          "satellite map",
+          "reflect zenly data",
+          "review page",
+          "fix fusion pin"
+        ],
+        "v140": ["bump", "improve stamp feature", "24h images"],
+        "v150": ["region name"],
+        "v160": ["what's up"],
+        "v170": ["improvement of location"],
+        "v180": ["pin animation"],
+        "tbd": ["explore", "streak", "rankings", "stamp mash", "place search"]
+      }
+    },
+    "streak": { "text": "${streak}일 연속 로그인" },
+    "iconOption": {
+      "title": "앱 아이콘",
+      "unlock": {
+        "title": "조건을 충족시키고 해금하기",
+        "condition": "${friendCount}명의 친구들을 만들어봐!"
+      }
+    }
+  },
+  "permission": {
+    "always": {
+      "title": "위치 정보를 \\\"항상 허용\\\"으로 설정하기",
+      "step1": "아래 버튼을 통해 설정 들어가기",
+      "step2": "그리고 '항상 허용'을 누른다",
+      "step3": "Locket이 정확한 위치를 사용할 수 있도록 설정을 변경하기",
+      "step4": "Locket으로 돌아가기",
+      "openSettings": "설정 들어가기",
+      "disclosure": "Locket은 앱이 닫히거나 사용하지 않는 상태 일 때도 자신의 발자국을 저장하여 위치 정보를 수집해 친구들과 위치를 공유를 가능하게 합니다"
+    },
+    "whenInUse": {
+      "title": "어디야?",
+      "findMe": "나를 찾아",
+      "whyCollectLocation": "Locket이 위치 정보를 수집하는 이유",
+      "description": "Locket을 사용하면 친구들이 앱을 닫았을 때도 그들이 무엇을 하고 있는지 볼 수 있습니다.\\n\\n친구들이 같은 경험을 즐길 수 있도록 앱이 닫혔을 때 Locket이 당신의 위치 정보를 사용할 수 있도록 허용하십시오."
+    },
+    "batteryOptimization": {
+      "title": "Zenly가 백그라운드에서 실행되도록 허용해야합니다",
+      "buttonText": "백그라운드에서 실행 허용"
+    },
+    "notification": {
+      "title": "알림 허용",
+      "decline": {
+        "title": "허락하지 않기",
+        "confirm": "확실해?",
+        "description": "친구 요청 및 메시지에 대한 알림을 더 이상 받지 않습니다.\\n설정에서 원하지 않는 알림을 끌 수 있습니다."
+      }
+    },
+    "motionActivity": {
+      "title": "활동 인식 활성하기",
+      "titleiOS": "모션 & 피트너스 활성하기",
+      "whyCollect": {
+        "title": "Locket이 활동 정보를 수집하는 이유",
+        "titleiOS": "Locket이 모션 & 피트너스 정보를 수집하는 이유",
+        "description": "Locket은 친구들과 위치를 공유하기 위해 백그라운드에서 위치 정보를 가옵니다.\\n\\n백그라운드 배터리 소모를 줄이기 위해 Locket은 모션 활동을 캡처하여 그 수를 최적화합니다."
+      }
+    }
+  },
+  "userDetail": {
+    "friendCount": "친구들 ${count} 명",
+    "mutualFriendCount": "공통의 친구 ${count} 명",
+    "previewFriendCount": "Locket 친구들 ${count} 명 ",
+    "add": "추가",
+    "deleteFriend": "친구 삭제"
+  },
+  "addFriend": {
+    "title": "친구 추가",
+    "addByLocketID": {
+      "title": "LocketID로",
+      "search": { "placeholder": "Locket ID" },
+      "result": {
+        "mutualFriends": "공통 친구",
+        "noMutualFriends": "0명",
+        "cannotSentRequest": "이 사용자한테 요청 할 수 없어",
+        "request": "요청 전송됨",
+        "requestSent": "요청 완료"
+      }
+    },
+    "shareIdOnInstagram": { "title": "인스타그램에 ID 공유하기" },
+    "bump": {
+      "title": "범프 더하기",
+      "content": "친구들이랑 휴대폰을 흔들어봐!"
+    },
+    "nthUser": "${nickname}은 ${registerNum}번쨰 Locket 사용자야!",
+    "whatAboutYou": "너는?",
+    "receivedRequests": "요청 수락됨",
+    "sentRequests": "REQUESTS SENT",
+    "handleRequest": {
+      "accept": "허용",
+      "decline": "거절",
+      "message": "${friendName}가 친구 요청을 했어"
+    }
+  },
+  "newFriend": { "title": "${nickName}가 이제 너의 친구야!" },
+  "deleteFriend": { "title": "친구 삭제" },
+  "search": {
+    "title": "검색",
+    "friends": { "title": "친구" },
+    "friendSuggestion": { "title": "친구 추천" }
+  },
+  "fusion": {
+    "friendTitle": {
+      "one": "${count} 명의 친구",
+      "other": "${count} 명의 친구"
+    },
+    "withMe": "그리고 너",
+    "you": "너",
+    "areHere": "여기에 있어"
+  },
+  "chat": {
+    "addGroup": { "selectFriends": "추가할 친구를 선택" },
+    "addMembers": { "add": "${count} 더하기" },
+    "firstMessage": "메세지 보내기",
+    "clearChatHistory": "clear chat history",
+    "image": "사진진",
+    "placeholder": "메세지",
+    "info": {
+      "edit": { "title": "그룹 이름 바꾸기", "placeholder": "그룹 이름" },
+      "inviteGroup": { "title": "그룹에 추가", "yourFriends": "너의 친구들" },
+      "mute": "무음",
+      "leave": "나가기",
+      "memberCount": "멤버 수 ${count} ",
+      "leaveDialog": { "title": "그룹 떠나기", "warning": "정말 떠날거야?" }
+    },
+    "joined": "${names}가 채팅방에 들어왔어!",
+    "left": "${name}가 채팅방에서 나갔어",
+    "readMembers": "${readMemberNames} 읽음",
+    "whenNoFriend": {
+      "addFriend": "친구 추가",
+      "letsChat": "그리고 대화 시작하기!",
+      "findLocation": "그리고 그들이 어디 있는지 찾아봐!",
+      "shareId": "인스타그램 스토리에 ID 공유하기"
+    },
+    "download": {
+      "title": "다운로드",
+      "success": "이미지가 저장됐어!",
+      "error": "이미지 저장 실패"
+    },
+    "camera": {
+      "permissionError": "You're not allowed access to the camera",
+      "openSettings": "Open Settings"
+    },
+    "playStamp": "tap to play emojis",
+    "receivedWhatsUp": "received what's up!",
+    "sentWhatsUp": "sent what's up!",
+    "receivedWhatsUpResponse": "received what's up response!"
+  },
+  "userBlock": { "block": "차단", "unBlock": "차단 해제" },
+  "userRelation": {
+    "myself": "너",
+    "friend": "친구",
+    "pendingRequest": "초대됨",
+    "requested": "요청됨",
+    "blocked": "차단됨",
+    "blocking": "차단 중"
+  },
+  "gender": {
+    "male": "남성",
+    "female": "여성",
+    "other": "기타",
+    "noAnswer": "답하지 않기"
+  },
+  "birthday": { "noAnswer": "답하지 않기" },
+  "place": {
+    "school": "학교",
+    "workplace": "직장",
+    "nightPlace": "숙소",
+    "home": "집",
+    "isYourPlace": "${placeName}가 현재 위치야?",
+    "notYourPlace": "${placeName}가 현재 너의 위치가 아니야?",
+    "neverShowThisPlace": "다시는 지도에 표시하지 않기",
+    "relocate": "${placeName} 옮기기",
+    "youWereThere": "${time}동안 거기에 있었어",
+    "changePlace": "${placeName} 옮기기",
+    "yesThisis": "맞아, 여기는 내 ${placeName}이야",
+    "placeChangeLimitTitle": "이번 달은 앞으로 ${n}회 업데이트 할 수 있어",
+    "placeChangeLimitBody": "이 장소는 이번 달에 ${n}회 업데이트할 수 있어. 이동은 시간이 걸려",
+    "gotcha": "알겠어",
+    "placeChangeLimitReachedTitle": "이사중이네📦",
+    "placeChangeLimitReachedBody": "너무 빠른데, 잠시 후에 다시 시도해줄래?",
+    "registerAs": "${placeName}으로 등록하기",
+    "notRegister": "등록하지 않기",
+    "isReallyOkToNotRegisterTitle": "이 장소를 지도에서 숨기기",
+    "isReallyOkToNotRegisterBody": "한 번 숨기면 영원히 복원할 수 없으니 잘 생각해 봐",
+    "hideForever": "영원히 숨기기"
+  },
+  "delete": "삭제",
+  "cancel": "취소",
+  "next": "다음",
+  "update": "업데이트",
+  "create": "만들기",
+  "checkOutUpdate": "업데이트를 기다려줘!",
+  "ok": "OK",
+  "edit": "수정",
+  "or": "혹은",
+  "error": {
+    "locketIdAlreadyTaken": "이미 존재하는 ID야!",
+    "locketIdNotAllowed": "이 locketId는 허용되지 않아. 다른 걸 골라줘",
+    "nicknameNotAllowed": "이 닉네임은 허용돠지 않아. 다른 걸 골라줘",
+    "oops": "이런!",
+    "locketIdInvalidCharacters": "사용할 수 없는 문자가 있어! 숫자나 알파벳을 사용해 줘!",
+    "failedUploadingImage": "이미지 업로드에 실패했어. 인터넷 연결이 양호한 상태에서 다시 시도해 봐.",
+    "networkError": "인터넷 연결돼 있어?",
+    "checkConnectionAndReboot": "연결을 확인하고 재부팅해 봐!🛠",
+    "sessionExpired": "세션이 만료되었어. 로그인 화면으로 돌아간다",
+    "alreadyFriends": "이미 친구네, 정말 친하구나!🤩",
+    "selfRequest": "나 자신에게 요청을 보낼 수 없어... 내가 너의 친구가 되어줄까?🥺",
+    "duplicateRequest": "같은 요청을 두 번 이상 보내지 마!🙅‍♀️",
+    "notFound": "사용자를 찾을 수 없어 🥺",
+    "checkIdAgain": "입력한 ID를 확인하고 다시 시도해 봐!",
+    "modifyLocketId": "Locket ID 수정",
+    "chatGroupAlreadyExists": "이 채팅 그룹은 이미 존재해!",
+    "system": {
+      "title": "시스템 오류",
+      "message": "시스템에 오류가 발생했어! 앱을 다시 시작해"
+    },
+    "input": "입력 오류"
+  },
+  "shareLink": "SNS에 공유하기",
+  "shareStory": "인스타그램에 공유하기",
+  "shareOnTwitter": "내 LocketID는 ${locketId}이야!",
+  "idShareAddFriend": "${nickName}가 널 기다리고 있어!",
+  "duration": {
+    "year": { "one": "${count} 년", "other": "${count} 년" },
+    "month": { "one": "${count} 개월", "other": "${count} 개월" },
+    "day": { "one": "${count} 일", "other": "${count} 일" },
+    "hour": { "one": "${count} 시간", "other": "${count} 시간" },
+    "minute": { "one": "${count} 분", "other": "${count} 분" },
+    "second": { "one": "${count} 초", "other": "${count} 초" },
+    "ago": "전에",
+    "now": "현재"
+  },
+  "shortDuration": {
+    "year": "${count} 년",
+    "month": "${count} 월",
+    "day": "${count} 일",
+    "hour": "${count} 시",
+    "minute": "${count} 분",
+    "second": "${count} 초",
+    "ago": "전에",
+    "now": "현재"
+  },
+  "unitDuration": {
+    "year": "년",
+    "month": "월",
+    "day": "일",
+    "hour": "시",
+    "minute": "분",
+    "second": "초",
+    "ago": "전에",
+    "now": "현재"
+  },
+  "comingSoon": "Coming Soon ! ",
+  "latestUpdate": { "title": "지금 업데이트할 수 있어!" },
+  "later": "나중에",
+  "pinInfo": { "blurred": "흐릿하게" },
+  "updateDialog": {
+    "later": "나중에",
+    "essential": "지금 당장 업데이트 해야돼"
+  },
+  "announce": {
+    "twitter": {
+      "title": "실제로 Locket을 사용한 경험은 어땠어?",
+      "body": "트위터에서 너의 의견을 공유해줘!🐦",
+      "button": "트윗하기"
+    },
+    "instagram": {
+      "title": "인스타그램에 너의 LocketID를 공유해봐!",
+      "body": "",
+      "button": "스토리 만들기"
+    },
+    "review": {
+      "title": "Locket이 마음에 듭니까?",
+      "body": "앱 스토어에 리뷰를 남겨주세요",
+      "button": "스토어 열기"
+    },
+    "hideFor7Days": "7일동안 숨기기"
+  },
+  "detail": "자세히 보기",
+  "stamps": {
+    "unlock": {
+      "title": "🔓 조건을 충족시키고 해금하기",
+      "condition": "${friendCount}명의 친구들을 만들어봐!"
+    }
+  }
+}

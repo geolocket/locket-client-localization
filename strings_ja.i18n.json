@@ -80,7 +80,8 @@
           "description": "「フリーズ」に設定した友達には、設定をする前のあなたの位置情報のまま、同じ場所が固定表示されます",
           "warning": "あなたが「フリーズ」に設定した友達には、そのことが分かりません"
         }
-      }
+      },
+      "selectAll": "全員を選択"
     },
     "privacy": {
       "title": "プライバシー設定",
@@ -96,7 +97,10 @@
     "about": {
       "title": "Locketについて",
       "privacyPolicy": "プライバシーポリシー",
-      "followUs": "詳しくはフォローしてね！"
+      "homepage": "ホームページ",
+      "review": "レビュー",
+      "version": "バージョン",
+      "followUs": "SNSもフォローしてね！"
     },
     "help": {
       "title": "ヘルプ",
@@ -128,6 +132,59 @@
       "unlock": "フレンド招待数$numで解放",
       "reflect": "zenlyのデータを反映させる",
       "message": "このサービスは、\nzenlyを愛してやまない\nチームLocketが、\nみんなの楽しかった思い出、\nあしあとをそのまま残したい\nという願いを込めて\n盛り込みました。\nzenlyとのオフィシャルな\nサービスではありません。\n\nzenlyライフから\nLocketライフへ。\n\n良き旅路を。\n\nLocket開発チームより"
+    },
+    "roadmap": {
+      "title": "開発予定",
+      "category": {
+        "toDo": "実装予定の機能",
+        "done": "実装済みの機能"
+      },
+      "start": {
+        "title": "開発スタート",
+        "time": "12月末"
+      },
+      "versions": {
+        "v101": ["位置情報共有", "通知", "ユーザーのブロック"],
+        "v102": ["吸い付くピンの挙動"],
+        "v103": ["チャット", "多言語対応"],
+        "v105": [
+          "IDシェア（QRコード）",
+          "マップオプション（ライト/ダーク）",
+          "フュージョン"
+        ],
+        "v106": [
+          "ニンジャモード",
+          "検索",
+          "知り合いかも",
+          "アプリアイコンの追加",
+          "memory of zenly"
+        ],
+        "v110": ["既読機能", "アナウンス", "スタンプ"],
+        "v130": [
+          "チャットの画像投稿",
+          "衛星マップ追加",
+          "memory of zenly データ反映",
+          "レビューページ",
+          "フュージョンピンの修正"
+        ],
+        "v140": [
+          "bump",
+          "地域名表示",
+          "スタンプ機能の改善",
+          "24時間で消える画像"
+        ],
+        "v150": ["地域名表示"],
+        "v160": ["what's up"],
+        "v170": ["位置情報の改善"],
+        "v180": ["ピンのアニメーション"],
+        "tbd": [
+          "足跡",
+          "ストリーク",
+          "ランキング",
+          "スタンプの連打",
+          "周辺施設の検索"
+        ]
+      }
     },
     "streak": {
       "text": "$streak 日間連続ログイン中"
@@ -180,6 +237,7 @@
   },
   "userDetail": {
     "friendCount": "$count人のフレンド",
+    "mutualFriendCount": "$count人の共通のフレンド",
     "previewFriendCount": "フレンド: $count人",
     "add": "追加",
     "deleteFriend": "フレンドから削除"
@@ -206,7 +264,7 @@
       "title": "bumpで追加",
       "content": "フレンドと一緒に\nスマホを振ろう！"
     },
-    "nthUser": "$nickName は ${registerNum}番目の\nLocketユーザーだよ！",
+    "nthUser": "$nickname は ${registerNum}番目の\nLocketユーザーだよ！",
     "whatAboutYou": "あなたは何番目？",
     "receivedRequests": "受け取ったリクエスト",
     "sentRequests": "送ったリクエスト",
@@ -248,6 +306,7 @@
       "add": "追加(${count})"
     },
     "firstMessage": "メッセージを送ろう！",
+    "clearChatHistory": "チャット履歴を削除",
     "image": "画像",
     "placeholder": "メッセージを入力",
     "info": {
@@ -280,7 +339,15 @@
       "title": "ダウンロード",
       "success": "画像を保存したよ！",
       "error": "画像の保存に失敗したよ..."
-    }
+    },
+    "camera": {
+      "permissionError": "カメラのアクセスが許可されていないよ！",
+      "openSettings": "設定を開く"
+    },
+    "playStamp": "タップして絵文字を見る",
+    "receivedWhatsUp": "what's upが届いたよ！",
+    "sentWhatsUp": "What's upを送ったよ!",
+    "receivedWhatsUpResponse": "what's upの返答が届いたよ！"
   },
   "userBlock": {
     "block": "ブロック",
@@ -318,8 +385,8 @@
     "placeChangeLimitTitle": "今月はあと$n回更新できます",
     "placeChangeLimitBody": "この場所は今月あと$n回更新できます。移動には時間がかかります 🙃",
     "gotcha": "了解",
-    "placeChangeLimitReatchedTitle": "引っ越し中ですね 📦",
-    "placeChangeLimitReatchedBody": "引っ越しがちょっと早過ぎるようです。間違いがないか後ほどまた確認します",
+    "placeChangeLimitReachedTitle": "引っ越し中ですね 📦",
+    "placeChangeLimitReachedBody": "引っ越しがちょっと早過ぎるようです。間違いがないか後ほどまた確認します",
     "registerAs": "$placeNameとして登録",
     "notRegister": "登録しない",
     "isReallyOkToNotRegisterTitle": "マップからこの場所を非表示にする",
@@ -438,7 +505,6 @@
       "body": "Storeでレビューお願い!",
       "button": "レビューを書く"
     },
-    "other": {},
     "hideFor7Days": "7日間非表示にする"
   },
   "detail": "詳しく見る",

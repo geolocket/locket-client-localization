@@ -1,0 +1,446 @@
+{
+  "title": "Locket",
+  "setup": {
+    "signInWithApple": "Đăng nhập với Apple ID",
+    "signInWithGoogle": "Đăng nhập với Google",
+    "signInWithTwitter": "Đăng nhập với Twitter",
+    "signInWithInstagram": "Đăng nhập với Instagram"
+  },
+  "profile": {
+    "nickname": {
+      "title": "Xin chào! Bạn tên là gì thế?",
+      "placeholder": "Tên của bạn"
+    },
+    "profileImage": {
+      "title": "Hãy chọn ảnh đại diện!",
+      "permission": {
+        "title": "Cho phép ứng dụng truy cập ảnh",
+        "description": "Để chọn ảnh đại diện, hãy cho phép Locket truy cập ảnh của bạn",
+        "ok": "ok 👍"
+      }
+    },
+    "birthday": {
+      "title": "Sinh nhật bạn là ngày nào thế?",
+      "year": "Năm",
+      "month": "Tháng",
+      "day": "Ngày",
+      "errorMessage": {
+        "tryAgain": "Hãy thử lại nào",
+        "nonSenseMessage": "Locket không biết ngày mà bạn vừa nhập mất rùi 🤡",
+        "reallyBornInTitle": "Vậy là bạn sinh năm ${year} đúng không nhỉ?",
+        "reallyBornInMessage": "Bạn dịch chuyển đến đây từ vũ trụ cơ à, ngầu thật đấy👽",
+        "ok": "ok 👍"
+      }
+    },
+    "gender": { "title": "Cho Locket biết giới tính của bạn đi!" },
+    "locketId": {
+      "title": "Chỉnh sửa Locket ID của bạn",
+      "placeholder": "Locket ID",
+      "errorMessage": {
+        "enterLocketId": "Hãy nhập Locket ID",
+        "onlyAlphabet": "Chỉ sử dụng bảng chữ cái",
+        "lessThan12": "Sử dụng ít hơn 12 kí tự"
+      }
+    }
+  },
+  "settings": {
+    "title": "Cài đặt",
+    "account": {
+      "title": "Tài khoản",
+      "profileImage": "Ảnh đại diện",
+      "nickname": "Biệt danh",
+      "locketId": "Locket ID",
+      "birthday": "Sinh nhật ",
+      "gender": "Giới tính",
+      "deleteAccount": {
+        "title": "Xóa tài khoản này",
+        "warning": "Bạn muốn xóa thiệt hả?"
+      }
+    },
+    "ninjaMode": {
+      "title": "Chế độ ninja",
+      "description": "Thay đổi cách ${nickname} được hiển thị",
+      "option": {
+        "preciseLocation": {
+          "title": "VỊ TRÍ CHÍNH XÁC",
+          "concise": "CHÍNH XÁC",
+          "description": "Bạn bè sẽ thấy vị trí chính xác của bạn"
+        },
+        "blurredLocation": {
+          "title": "VỊ TRÍ BỊ LÀM MỜ",
+          "concise": "BỊ LÀM MỜ",
+          "description": "Bạn bè mà bạn cài đặt làm mờ sẽ nhìn thấy thời gian thực nhưng sẽ chỉ nhìn thấy vị trí của bạn ở mowsc tương đối",
+          "warning": "Bạn bè mà bạn cài đặt làm mờ có thể biết rằng bạn đã làm mờ họ"
+        },
+        "frozenLocation": {
+          "title": "ĐÓNG BĂNG VỊ TRÍ",
+          "concise": "ĐÓNG BĂNG",
+          "description": "Bạn bè mà bạn cài đặt đóng băng sẽ nhìn thấy vị trí cũ trước khi đóng băng của bạn",
+          "warning": "Bạn bè mà bạn cài đặt đóng băng sẽ không biết rằng bạn đã đóng băng vị trí của bạn với họ"
+        }
+      },
+      "selectAll": "select all"
+    },
+    "privacy": {
+      "title": "Cài đặt riêng tư",
+      "optOutFromSuggestion": {
+        "title": "Không hiển thị tôi trong danh sách đề xuất",
+        "description": "Mở cài đặt này khi bạn không muốn tài khoản của mình xuất hiện trong danh sách \"Những người bạn có thể biết\""
+      },
+      "constraintRequestOnlyWithID": {
+        "title": "Giới hạn kết bạn cho Locket ID của bạn",
+        "description": "Người khác chỉ có thể kết bạn với bạn thông qua Locket ID khi bạn chấp nhận "
+      }
+    },
+    "about": {
+      "title": "Về Locket",
+      "privacyPolicy": "Chính sách quyền riêng tư",
+      "homepage": "trang chủ",
+      "review": "ôn tập",
+      "version": "version",
+      "followUs": "Follow để biết nhiều hơn về chúng tôi nhé!"
+    },
+    "help": { "title": "Trợ giúp", "contactForm": "Liên hệ " },
+    "mapOption": {
+      "title": "Cài đặt bản đồ",
+      "mapOptions": {
+        "light": "Chế độ sáng",
+        "dark": "Chế độ tối",
+        "satellite": "Vệ tinh"
+      }
+    },
+    "memoryOfZenly": {
+      "title": "Kí ức về Zenly",
+      "memories": {
+        "domesticCities": "Thành phố trong nước bạn đã ghé thăm",
+        "days": "Những ngày tháng đồng hành cùng Zenly",
+        "nightPlaces": "Chốn vui chơi cho đêm dài đáng nhớ",
+        "streaks": "Chuỗi đăng nhập ",
+        "countries": "Đất nước bạn đã ghé thăm",
+        "globalCities": "Số thành phố quốc tế bạn đã ghé thăm",
+        "completedCities": "Thành phố bạn đã hoàn thành",
+        "screenshot": {
+          "title": "Ảnh chụp màn hình dấu chân",
+          "fullScreen": "Chế độ toàn màn hình"
+        }
+      },
+      "unlock": "Mở khóa với ${num} bạn bè được mời",
+      "reflect": "Phản ánh dữ liệu từ Zenly",
+      "message": "Dịch vụ này được cung cấp bởi đội ngũ "
+    },
+    "roadmap": {
+      "title": "roadmap",
+      "category": {
+        "toDo": "to be implemented",
+        "done": "already implemented"
+      },
+      "start": {
+        "title": "Start",
+        "time": "End of Dec"
+      },
+      "versions": {
+        "v101": ["location sharing", "notifications", "user block"],
+        "v102": ["pin behavior"],
+        "v103": ["chat", "internationalization"],
+        "v105": ["id sharing (QR code)", "map options (light/dark)", "fusion"],
+        "v106": [
+          "ninja mode",
+          "search",
+          "friends you might know",
+          "add app icons",
+          "memory of zenly"
+        ],
+        "v110": ["mark on read", "announce", "stamps"],
+        "v130": [
+          "images in chat",
+          "satellite map",
+          "reflect zenly data",
+          "review page",
+          "fix fusion pin"
+        ],
+        "v140": ["bump", "improve stamp feature", "24h images"],
+        "v150": ["region name"],
+        "v160": ["what's up"],
+        "v170": ["improvement of location"],
+        "v180": ["pin animation"],
+        "tbd": ["explore", "streak", "rankings", "stamp mash", "place search"]
+      }
+    },
+    "streak": { "text": "Chuỗi đăng nhập ${streak} ngày" },
+    "iconOption": {
+      "title": "BIỂU TƯỢNG APP",
+      "unlock": {
+        "title": "Đạt điều kiện mở khóa",
+        "condition": "Kết ${friendCount} người bạn nào!"
+      }
+    }
+  },
+  "permission": {
+    "always": {
+      "title": "Luôn cho phép ứng dụng truy cập vị trí của bạn",
+      "step1": "Nhấn nút bên dưới để mở cài đặt",
+      "step2": "Sau đó chọn \"Luôn luôn\"",
+      "step3": "Để Locket có thể cập nhật chính xác vị trí của bạn, hãy thay đổi cài đặt",
+      "step4": "Quay lại Locket",
+      "openSettings": "Mở cài đặt",
+      "disclosure": "Locket thu thập thông tin vị trí của bạn để chia sẻ cho bạn bè và lưu lại dấu chân của bạn ngay cả khi không dùng ứng dụng"
+    },
+    "whenInUse": {
+      "title": "Bạn đang ở đâu đấy?",
+      "findMe": "Tìm tôi đi",
+      "whyCollectLocation": "Vì sao Locket phải thu thập thông tin vị trí?",
+      "description": "Locket cho phép bạn nhìn thấy vị trí của bạn bè ngay cả khi bạn không dùng ứng dụng.\n\n Hãy luôn luôn cấp quyền truy cập vị trí cho Locket đển bạn bè của bạn cũng được trải nghiệm tương tự nhé!"
+    },
+    "batteryOptimization": {
+      "title": "Làm mới trong nền cần được bật",
+      "buttonText": "Cho phép ứng dụng làm mới trong nền"
+    },
+    "notification": {
+      "title": "Cho phép ứng dụng gửi thông báo",
+      "decline": {
+        "title": "Không cho phép",
+        "confirm": "Bạn có chắc chắn không?",
+        "description": "Bạn sẽ không nhận thông báo về lời mời kết bạn hay tin nhắn\n Bạn có thể tắt thông báo không mong muốn trong cài đặt"
+      }
+    },
+    "motionActivity": {
+      "title": "Bật nhận dạng hoạt động",
+      "titleiOS": "Bật di chuyển và thể chất",
+      "whyCollect": {
+        "title": "Vì sao Locket phải thu thập thông tin về hoạt động di chuyển?",
+        "titleiOS": "Vì sao Locket phải thu thập thông tin về di chuyển và thể chất?",
+        "description": "Locket thu thập thông tin vị trí của bạn để chia sẻ cho bạn bè. \n\n Để tiết kiệm pin khi ứng dụng chạy trong nền, Locket tối ưu hóa số lượng vị trí"
+      }
+    }
+  },
+  "userDetail": {
+    "friendCount": "${count}  BẠN BÈ",
+    "mutualFriendCount": "${count}  BẠN CHUNG",
+    "previewFriendCount": "${count}  bạn bè trên Locket",
+    "add": "THÊM BẠN BÈ",
+    "deleteFriend": "Xóa bạn"
+  },
+  "addFriend": {
+    "title": "Thêm bạn bè",
+    "addByLocketID": {
+      "title": "bằng Locket ID",
+      "search": { "placeholder": "Locket ID" },
+      "result": {
+        "mutualFriends": "Bạn bè hai phía",
+        "noMutualFriends": "0 người",
+        "cannotSentRequest": "Không thể gửi yêu cầu kết bạn cho người dùng này",
+        "request": "YÊU CẦU ĐÃ ĐƯỢC GỬI",
+        "requestSent": "Đã yêu cầu"
+      }
+    },
+    "shareIdOnInstagram": { "title": "Chia sẻ ID trên instagram" },
+    "bump": {
+      "title": "Lắc để thêm bạn bè",
+      "content": "Lắc điện thoại cùng bạn bè của bạn nhé!"
+    },
+    "nthUser": "${nickname} là người dùng thứ ${registerNum} trên Locket",
+    "whatAboutYou": "Còn bạn thì sao?",
+    "receivedRequests": "Đã nhận yêu cầu",
+    "sentRequests": "gửi yêu cầu",
+    "handleRequest": {
+      "accept": "CHẤP NHẬN",
+      "decline": "HỦY",
+      "message": "Bạn có lời mời kết bạn từ ${friendName} !"
+    }
+  },
+  "newFriend": { "title": "${nickName} đã trở thành bạn bè của bạn!" },
+  "deleteFriend": { "title": "Xóa bạn" },
+  "search": {
+    "title": "Tìm kiếm",
+    "friends": { "title": "BẠN BÈ" },
+    "friendSuggestion": { "title": "NHỮNG NGƯỜI BẠN CÓ THỂ BIẾT" }
+  },
+  "fusion": {
+    "friendTitle": {
+      "one": "${count}  người bạn",
+      "other": "${count}  người bạn"
+    },
+    "withMe": "và bạn",
+    "you": "bạn",
+    "areHere": "đang ở đây"
+  },
+  "chat": {
+    "addGroup": { "selectFriends": "Chọn bạn bè để thêm" },
+    "addMembers": { "add": "Thêm ${count}" },
+    "firstMessage": "Hãy gửi tin nhắn!",
+    "clearChatHistory": "clear chat history",
+    "image": "Ảnh",
+    "placeholder": "Tin nhắn",
+    "info": {
+      "edit": { "title": "Đặt lại tên nhóm?", "placeholder": "Tên nhóm" },
+      "inviteGroup": {
+        "title": "Thêm vào nhóm",
+        "yourFriends": "BẠN BÈ CỦA BẠN"
+      },
+      "mute": "Tắt mic",
+      "leave": "Rời khỏi",
+      "memberCount": "${count} thành viên",
+      "leaveDialog": {
+        "title": "Rời khỏi nhóm này",
+        "warning": "Bạn có chắc muốn rời đi không?"
+      }
+    },
+    "joined": "${names} đã tham gia đoạn chat này",
+    "left": "${name} đã rời khỏi đoạn chat này",
+    "readMembers": "${readMemberNames} đã đọc",
+    "whenNoFriend": {
+      "addFriend": "Thêm bạn bè",
+      "letsChat": "và bắt đầu chat thôi!",
+      "findLocation": "và tìm xem họ đang ở đâu nhé!",
+      "shareId": "Chia sẻ ID trên tin Instagram nhé"
+    },
+    "download": {
+      "title": "Tải xuống",
+      "success": "Đã lưu ảnh!",
+      "error": "Lưu ảnh không thành công"
+    },
+    "camera": {
+      "permissionError": "Truy cập máy ảnh không được phép!",
+      "openSettings": "mở cài đặt"
+    },
+    "playStamp": "Nhấn để xem biểu tượng cảm xúc",
+    "receivedWhatsUp": "Chuyện gì đã đến!",
+    "sentWhatsUp": "Tôi đã gửi cho bạn những gì lên!",
+    "receivedWhatsUpResponse": "received what's up response!"
+  },
+  "userBlock": { "block": "Chặn", "unBlock": "Bỏ chặn" },
+  "userRelation": {
+    "myself": "Bạn",
+    "friend": "Bạn bè",
+    "pendingRequest": "Đã mời",
+    "requested": "Đã yêu cầu",
+    "blocked": "Đã chặn",
+    "blocking": "Đang chặn"
+  },
+  "gender": {
+    "male": "Nam",
+    "female": "Nữ",
+    "other": "Khác",
+    "noAnswer": "Tôi không thể nói được"
+  },
+  "birthday": { "noAnswer": "Tôi không thể nói được" },
+  "place": {
+    "school": "Trường học",
+    "workplace": "Nơi làm việc",
+    "nightPlace": "Nơi chốn cho ban đêm",
+    "home": "Nhà",
+    "isYourPlace": "Đây là ${placeName} hiện tại của bạn đúng không?",
+    "notYourPlace": "Đây không phải ${placeName} hiện tại của bạn hả?",
+    "neverShowThisPlace": "Đừng bao giờ hiển thị địa điểm này trên bản đồ của tôi nữa",
+    "relocate": "Định vị lại ${placeName}",
+    "youWereThere": "Bạn đã ở đó ${time}",
+    "changePlace": "Định vị lại ${placeName}",
+    "yesThisis": "Đúng vậy, đây chính là ${placeName} của tôi",
+    "placeChangeLimitTitle": "Đã cập nhật ${n} lần tháng này",
+    "placeChangeLimitBody": "Bạn chỉ còn có thể cập nhật địa điểm này ${n} lần trong tháng này. Di chuyển mất thời gian🙃",
+    "gotcha": "Đã hiểu!",
+    "placeChangeLimitReachedTitle": "Bạn đang di chuyển📦",
+    "placeChangeLimitReachedBody": "Bạn đang di chuyển khá nhanh. Locket sẽ yêu cầu bạn thử lại sau vì di chuyển cần thời gian mà",
+    "registerAs": "Lưu địa điểm thành ${placeName}",
+    "notRegister": "Đừng lưu",
+    "isReallyOkToNotRegisterTitle": "Ẩn địa điểm này khỏi bản đồ của tôi",
+    "isReallyOkToNotRegisterBody": "Một khi đã ẩn thì địa điểm sẽ ẩn luôn đấy. Hãy suy nghĩ thật kĩ xem bạn có thật sự muốn ẩn hay không nhé",
+    "hideForever": "Ẩn mãi mãi"
+  },
+  "delete": "Xóa  ",
+  "cancel": "Hủy",
+  "next": "Tiếp theo",
+  "update": "Cập nhật",
+  "create": "Tạo mới",
+  "checkOutUpdate": "Hãy theo dõi các bản cập nhật khác trong tương lai!",
+  "ok": "OK",
+  "edit": "Chỉnh sửa",
+  "or": "hoặc",
+  "error": {
+    "locketIdAlreadyTaken": "ID này có người dùng mất rùi🙅",
+    "locketIdNotAllowed": "Locket ID này không hợp lệ. Xin vui lòng chọn ID khác",
+    "nicknameNotAllowed": "Biệt danh này không hợp lệ. Xin vui lòng chọn biệt danh khác",
+    "oops": "Úi!",
+    "locketIdInvalidCharacters": "Có kí tự mà bạn không thể sử dụng. Bạn vui lòng dùng số hoặc bảng chữ cái nhé!",
+    "failedUploadingImage": "Đăng ảnh không thành công. Hãy kiểm tra kết nối internet của bạn",
+    "networkError": "Bạn có đang online không?",
+    "checkConnectionAndReboot": "Hãy kiểm tra kết nối của bạn và thử khởi động lại nhé!🛠",
+    "sessionExpired": "Phiên đã hết hạn. Vui lòng đăng nhập lại",
+    "alreadyFriends": "Các bạn hiện đang là bạn bè thân thiết đó!🤩",
+    "selfRequest": "Bạn không thể gửi yêu cầu kết bạn cho chính mình được nhưng nếu bạn muốn tui có thể trở thành bạn của bạn nè🥺",
+    "duplicateRequest": "Đừng gửi cùng một yêu cầu hơn hai lần nha🙅‍♀️",
+    "notFound": "Không tìm thấy người dùng🥺",
+    "checkIdAgain": "Kiểm tra ID bạn đã nhập và thử lại lần nữa xem sao nhé!",
+    "modifyLocketId": "Sửa Locket ID",
+    "chatGroupAlreadyExists": "Nhóm chat này đã có trước rồi!",
+    "system": {
+      "title": "Lỗi hệ thống",
+      "message": "Đã có lỗi xảy ra trong hệ thống, bạn vui lòng khởi động lại ứng dụng nhé!"
+    },
+    "input": "Lỗi nhập vào"
+  },
+  "shareLink": "Chia sẻ liên kết",
+  "shareStory": "Chia sẻ trên Instagram",
+  "shareOnTwitter": "Locket ID của tôi là ${locketId} !",
+  "idShareAddFriend": "${nickName}đang đợi bạn đó!",
+  "duration": {
+    "year": { "one": "${count}  năm", "other": "${count}  năm" },
+    "month": { "one": "${count}  tháng", "other": "${count}  tháng" },
+    "day": { "one": "${count}  ngày", "other": "${count}  ngày" },
+    "hour": { "one": "${count}  tiếng", "other": "${count}  tiếng" },
+    "minute": { "one": "${count}  phút", "other": "${count}  phút" },
+    "second": { "one": "${count}  giây", "other": "${count}  giây" },
+    "ago": "trước",
+    "now": "bây giờ"
+  },
+  "shortDuration": {
+    "year": "${count}  năm",
+    "month": "${count}  tháng",
+    "day": "${count}  ngày",
+    "hour": "${count}  tiếng",
+    "minute": "${count}  phút",
+    "second": "${count}  giây",
+    "ago": "trước",
+    "now": "bây giờ"
+  },
+  "unitDuration": {
+    "year": "Năm",
+    "month": "Tháng",
+    "day": "Ngày",
+    "hour": "Tiếng",
+    "minute": "Phút",
+    "second": "Giây",
+    "ago": "Trước",
+    "now": "Bây giờ"
+  },
+  "comingSoon": "Tới ngay đây!",
+  "latestUpdate": { "title": "Đã có bản cập nhật mới nhất" },
+  "later": "Sau",
+  "pinInfo": { "blurred": "Làm mờ" },
+  "updateDialog": { "later": "Sau", "essential": "Cần phải cài đặt" },
+  "announce": {
+    "twitter": {
+      "title": "Trải nghiệm của bạn khi dùng Locket như thế nào?",
+      "body": "Hãy cho chúng tôi biết ý kiến của bạn trên Twitter nhé!🐦",
+      "button": "Đăng tải lên Twitter"
+    },
+    "instagram": {
+      "title": "Hãy chia sẻ Locket ID của bạn trên Instagram nhé!",
+      "body": "",
+      "button": "Tạo tin"
+    },
+    "review": {
+      "title": "Bạn thích Locket ở điểm nào thế?",
+      "body": "Hãy cho chúng tôi biết cảm nhận của bạn tại App Store nhé!",
+      "button": "Mở App Store"
+    },
+    "hideFor7Days": "Ẩn 7 ngày"
+  },
+  "detail": "Chi tiết",
+  "stamps": {
+    "unlock": {
+      "title": "🔓Đạt điều kiện mở khóa",
+      "condition": "Kết ${friendCount} người bạn"
+    }
+  }
+}

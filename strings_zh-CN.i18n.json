@@ -1,0 +1,428 @@
+{
+  "title": "Locket",
+  "setup": {
+    "signInWithApple": "使用苹果ID登录",
+    "signInWithGoogle": "使用Google账户登录",
+    "signInWithTwitter": "使用推特账户登录",
+    "signInWithInstagram": "使用Instagram账户登录"
+  },
+  "profile": {
+    "nickname": { "title": "嗨！你的名字是 ?", "placeholder": "你的名字" },
+    "profileImage": {
+      "title": "请选择你的头像",
+      "permission": {
+        "title": "allow access to photos",
+        "description": "Locket needs access to your photos to let you choose a profile picture",
+        "ok": "ok 👍"
+      }
+    },
+    "birthday": {
+      "title": "你的生日是什么时候？",
+      "year": "年",
+      "month": "月",
+      "day": "日",
+      "errorMessage": {
+        "tryAgain": "let's try that again",
+        "nonSenseMessage": "the date you entered doesn't make sense to me 🤡",
+        "reallyBornInTitle": "so you were born in ${year}, huh?",
+        "reallyBornInMessage": "so cool that you teleported here from the future 👽",
+        "ok": "ok"
+      }
+    },
+    "gender": { "title": "请告诉我你的性别" },
+    "locketId": {
+      "title": "编辑你的Locket ID",
+      "placeholder": "Locket ID",
+      "errorMessage": {
+        "enterLocketId": "enter Locket ID",
+        "onlyAlphabet": "only alphabet",
+        "lessThan12": "less than 12 characters"
+      }
+    }
+  },
+  "settings": {
+    "title": "设置",
+    "account": {
+      "title": "账号",
+      "profileImage": "头像",
+      "nickname": "昵称",
+      "locketId": "Locket ID",
+      "birthday": "生日",
+      "gender": "性别",
+      "deleteAccount": { "title": "删除账号", "warning": "你确定要删除吗？" }
+    },
+    "ninjaMode": {
+      "title": "忍者模式",
+      "description": "Change what ${nickname} can see",
+      "option": {
+        "preciseLocation": {
+          "title": "精确位置",
+          "concise": "精确",
+          "description": "你的好友会精确发现你的所在地"
+        },
+        "blurredLocation": {
+          "title": "模糊位置",
+          "concise": "模糊",
+          "description": "设置后你的好友将会实时看到你的大致位置",
+          "warning": "设置后你的好友将会知道你将他们设置为“模糊”"
+        },
+        "frozenLocation": {
+          "title": "冻结位置",
+          "concise": "冻结",
+          "description": "设置后你的好久将看到设置时的所在位置，并维持不变",
+          "warning": "设置为冻结后你的好友将不会知道你将他们设置为\\“模糊\\”"
+        }
+      },
+      "selectAll": "select all"
+    },
+    "privacy": {
+      "title": "隐私设置",
+      "optOutFromSuggestion": {
+        "title": "退出建议清单",
+        "description": "开启后你将不会出现在“你可能认识他们”名单中"
+      },
+      "constraintRequestOnlyWithID": {
+        "title": "Locket ID 交友限制",
+        "description": "只有与你有共同好友的使用者才可以添加你为好友"
+      }
+    },
+    "about": {
+      "title": "关于 Locket",
+      "privacyPolicy": "隐私政策",
+      "homepage": "website",
+      "review": "rate Locket",
+      "version": "version",
+      "followUs": "follow us for more info!"
+    },
+    "help": { "title": "help", "contactForm": "contact form" },
+    "mapOption": {
+      "title": "地图选项",
+      "mapOptions": {
+        "light": "浅色模式",
+        "dark": "深色模式",
+        "satellite": "satellite"
+      }
+    },
+    "memoryOfZenly": {
+      "title": "Zenly的回忆",
+      "memories": {
+        "domesticCities": "number of domestic cities visited",
+        "days": "Zenly的使用天数",
+        "nightPlaces": "夜晚好去处",
+        "streaks": "连续登录",
+        "countries": "去过的国家",
+        "globalCities": "number of global cities visited",
+        "completedCities": "完成的城市",
+        "screenshot": { "title": "足迹截图", "fullScreen": "进入全屏模式" }
+      },
+      "unlock": "邀请${num}位好友即可解锁",
+      "reflect": "reflect zenly data",
+      "message": "本服务由团队提供"
+    },
+    "roadmap": {
+      "title": "roadmap",
+      "category": {
+        "toDo": "to be implemented",
+        "done": "already implemented"
+      },
+      "start": {
+        "title": "Start",
+        "time": "End of Dec"
+      },
+      "versions": {
+        "v101": ["location sharing", "notifications", "user block"],
+        "v102": ["pin behavior"],
+        "v103": ["chat", "internationalization"],
+        "v105": ["id sharing (QR code)", "map options (light/dark)", "fusion"],
+        "v106": [
+          "ninja mode",
+          "search",
+          "friends you might know",
+          "add app icons",
+          "memory of zenly"
+        ],
+        "v110": ["mark on read", "announce", "stamps"],
+        "v130": [
+          "images in chat",
+          "satellite map",
+          "reflect zenly data",
+          "review page",
+          "fix fusion pin"
+        ],
+        "v140": ["bump", "improve stamp feature", "24h images"],
+        "v150": ["region name"],
+        "v160": ["what's up"],
+        "v170": ["improvement of location"],
+        "v180": ["pin animation"],
+        "tbd": ["explore", "streak", "rankings", "stamp mash", "place search"]
+      }
+    },
+    "streak": { "text": "连续登录${streak} 天" },
+    "iconOption": {
+      "title": "APP 图标",
+      "unlock": {
+        "title": "达成条件即可解锁",
+        "condition": "新增${friendCount}位好友！"
+      }
+    }
+  },
+  "permission": {
+    "always": {
+      "title": "位置设置为“永远”",
+      "step1": "请按最下方的按钮来打开设置",
+      "step2": "然后选择“永远”",
+      "step3": "请更改你的设置这样Locket才能取得你的位置。",
+      "step4": "返回 Locket",
+      "openSettings": "打开设置",
+      "disclosure": "Locket collects location data to enable location sharing with friends, saving footprints of yourselves even when the app is closed or not in use."
+    },
+    "whenInUse": {
+      "title": "你在哪里？",
+      "findMe": "找到我",
+      "whyCollectLocation": "为什么Locket要收集我的位置信息",
+      "description": "Locket允许你在朋友关闭App的时候仍能追踪他们的活动。\\n\\n为了让你的朋友也有一样的体验，请你允许Locket 在未打开App的时候也可以持续追踪你的位置。"
+    },
+    "batteryOptimization": {
+      "title": "需要启用Locket的后台处理",
+      "buttonText": "请开启后台处理"
+    },
+    "notification": {
+      "title": "允许通知",
+      "decline": {
+        "title": "不允许",
+        "confirm": "你确定吗？",
+        "description": "你将不会再收到好友请求和消息的通知\\n 你可以在设置里关闭不想要的通知"
+      }
+    },
+    "motionActivity": {
+      "title": "启用活动识别",
+      "titleiOS": "enable motion & fitness",
+      "whyCollect": {
+        "title": "为什么Locket要收集运动活动数据",
+        "titleiOS": "why does Locket collect motion & fitness data?",
+        "description": "Locket 在后台获取位置信息以与朋友分享。\\n\\n为了减少后台的电池消耗，Locket 通过捕捉运动活动来优化位置获取的数量。"
+      }
+    }
+  },
+  "userDetail": {
+    "friendCount": "${count} 位好友",
+    "mutualFriendCount": "${count} 共同的朋友",
+    "previewFriendCount": "在 Locket上有${count}  位好友",
+    "add": "添加",
+    "deleteFriend": "删除好友"
+  },
+  "addFriend": {
+    "title": "添加好友",
+    "addByLocketID": {
+      "title": "通过Locket ID",
+      "search": { "placeholder": "Locket ID" },
+      "result": {
+        "mutualFriends": "共同好友",
+        "noMutualFriends": "0位",
+        "cannotSentRequest": "无法发送请求给该用户",
+        "request": "REQUEST SENT",
+        "requestSent": "请求已完成"
+      }
+    },
+    "shareIdOnInstagram": { "title": "share ID on Instagram" },
+    "bump": {
+      "title": "add by bump",
+      "content": "shake your phone with your friends!"
+    },
+    "nthUser": "${nickname} is ${registerNum}-th user on Locket!",
+    "whatAboutYou": "How about you?",
+    "receivedRequests": "请求已收到",
+    "sentRequests": "REQUESTS SENT",
+    "handleRequest": {
+      "accept": "接受",
+      "decline": "拒绝",
+      "message": "你收到了来自${friendName}的好友请求!"
+    }
+  },
+  "newFriend": { "title": "${nickName}已成为你的好友！" },
+  "deleteFriend": { "title": "删除好友" },
+  "search": {
+    "title": "搜索",
+    "friends": { "title": "好友" },
+    "friendSuggestion": { "title": "你可能认识他们" }
+  },
+  "fusion": {
+    "friendTitle": { "one": "${count} 位好友", "other": "${count} 位好友" },
+    "withMe": "和你",
+    "you": "你",
+    "areHere": "在这里"
+  },
+  "chat": {
+    "addGroup": { "selectFriends": "选择要添加的好友" },
+    "addMembers": { "add": "add${count}" },
+    "firstMessage": "发送一条信息",
+    "clearChatHistory": "clear chat history",
+    "image": "image",
+    "placeholder": "信息",
+    "info": {
+      "edit": { "title": "重新命名群组", "placeholder": "群组名词" },
+      "inviteGroup": { "title": "Add to group", "yourFriends": "YOUR FRIENDS" },
+      "mute": "mute",
+      "leave": "leave",
+      "memberCount": "${count} 位成员",
+      "leaveDialog": {
+        "title": "Leave this group",
+        "warning": "Are you sure to leave?"
+      }
+    },
+    "joined": "${names} joined the chat!",
+    "left": "$name has left the chat",
+    "readMembers": "read by ${readMemberNames}",
+    "whenNoFriend": {
+      "addFriend": "Add friends",
+      "letsChat": "and start chat!",
+      "findLocation": "and find where they are!",
+      "shareId": "share ID on Instragram story"
+    },
+    "download": {
+      "title": "download",
+      "success": "The image has been saved!",
+      "error": "Failed to save the image"
+    },
+    "camera": {
+      "permissionError": "You're not allowed access to the camera",
+      "openSettings": "Open Settings"
+    },
+    "playStamp": "tap to play emojis",
+    "receivedWhatsUp": "received what's up!",
+    "sentWhatsUp": "sent what's up!",
+    "receivedWhatsUpResponse": "received what's up response!"
+  },
+  "userBlock": { "block": "锁定", "unBlock": "解锁" },
+  "userRelation": {
+    "myself": "你",
+    "friend": "好友",
+    "pendingRequest": "已邀请",
+    "requested": "已请求",
+    "blocked": "被锁定",
+    "blocking": "锁定中"
+  },
+  "gender": {
+    "male": "男性",
+    "female": "女性",
+    "other": "其他",
+    "noAnswer": "未回答"
+  },
+  "birthday": { "noAnswer": "未回答" },
+  "place": {
+    "school": "学校",
+    "workplace": "职场",
+    "nightPlace": "夜场",
+    "home": "家",
+    "isYourPlace": "这里是你的当前 ${placeName}吗?",
+    "notYourPlace": "不是你的当前 ${placeName}?",
+    "neverShowThisPlace": "不要在地图上显示这个地点",
+    "relocate": "变更到 ${placeName}",
+    "youWereThere": "你在${time}时在这里",
+    "changePlace": "变更到 ${placeName}",
+    "yesThisis": "是，这里是我的${placeName}",
+    "placeChangeLimitTitle": "这个月还有${n}次更新",
+    "placeChangeLimitBody": "这个地点这个月还剩下${n}次更新，移动需要时间🙃",
+    "gotcha": "知道了",
+    "placeChangeLimitReachedTitle": "移动中📦",
+    "placeChangeLimitReachedBody": "你移动的有点太快了，请稍后再试",
+    "registerAs": "登记为${placeName}",
+    "notRegister": "无法登记",
+    "isReallyOkToNotRegisterTitle": "隐藏此地点",
+    "isReallyOkToNotRegisterBody": "隐藏后将无法复原，请研究后再决定",
+    "hideForever": "永久隐藏"
+  },
+  "delete": "删除",
+  "cancel": "取消",
+  "next": "下一页",
+  "update": "更新",
+  "create": "创建",
+  "checkOutUpdate": "敬请期待以后的更新！",
+  "ok": "ok",
+  "edit": "编辑",
+  "or": "或",
+  "error": {
+    "locketIdAlreadyTaken": "这个ID已被注册",
+    "locketIdNotAllowed": "this locketId not allowed. Please choose a different one.",
+    "nicknameNotAllowed": "this nickname not allowed. Please choose a different one.",
+    "oops": "糟糕",
+    "locketIdInvalidCharacters": "请不要输入数字与英文字母以外的符号",
+    "failedUploadingImage": "图片上传失败",
+    "networkError": "网络错误",
+    "checkConnectionAndReboot": "检查网络状态，然后重启",
+    "sessionExpired": "Session has expired, return to login screen",
+    "alreadyFriends": "已经是好友",
+    "selfRequest": "无法给自己发送邀请",
+    "duplicateRequest": "重复的请求",
+    "notFound": "找不到",
+    "checkIdAgain": "请再次检查你的ID",
+    "modifyLocketId": "变更Locket ID",
+    "chatGroupAlreadyExists": "聊天群组已经存在",
+    "system": { "title": "系统错误", "message": "系统发生错误，请重新启动" },
+    "input": "输入错误"
+  },
+  "shareLink": "在社交媒体上分享",
+  "shareStory": "Share on Instagram",
+  "shareOnTwitter": "My LocketID is ${locketId}!",
+  "idShareAddFriend": "与${nickName}成为好友",
+  "duration": {
+    "year": { "one": "${count}年", "other": "${count}年" },
+    "month": { "one": "${count}个月", "other": "${count}个月" },
+    "day": { "one": "${count}日", "other": "${count}日" },
+    "hour": { "one": "${count}小时", "other": "${count}小时" },
+    "minute": { "one": "${count}分", "other": "${count}分" },
+    "second": { "one": "${count}秒", "other": "${count}t秒" },
+    "ago": "前",
+    "now": "现在"
+  },
+  "shortDuration": {
+    "year": "${count}年",
+    "month": "${count}个月",
+    "day": "${count}日",
+    "hour": "${count}小时",
+    "minute": "${count}分",
+    "second": "${count}秒",
+    "ago": "前",
+    "now": "现在"
+  },
+  "unitDuration": {
+    "year": "年",
+    "month": "月",
+    "day": "日",
+    "hour": "小时",
+    "minute": "分",
+    "second": "秒",
+    "ago": "前",
+    "now": "现在"
+  },
+  "comingSoon": "马上到来！",
+  "latestUpdate": { "title": "有新的版本可以更新!" },
+  "later": "稍后",
+  "pinInfo": { "blurred": "模糊" },
+  "updateDialog": { "later": "以后", "essential": "必须安装" },
+  "announce": {
+    "twitter": {
+      "title": "How was your experience of actually using Locket",
+      "body": "Please tell us your opinion on Twitter!🐦",
+      "button": "Tweet"
+    },
+    "instagram": {
+      "title": "Let's share your LocketID on Instagram!",
+      "body": "",
+      "button": "Create story"
+    },
+    "review": {
+      "title": "How do you like the locket?",
+      "body": "Please write us your review in the app store!",
+      "button": "Open Store"
+    },
+    "hideFor7Days": "hide for 7 days"
+  },
+  "detail": "see detail",
+  "stamps": {
+    "unlock": {
+      "title": "🔓 Meet the conditions and unlock",
+      "condition": "Make ${friendCount} friends!"
+    }
+  }
+}

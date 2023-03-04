@@ -1,4 +1,10 @@
 {
+  "NSCameraUsageDescription": "Gambar yang kamu ambil akan digunakan untuk foto profilmu dan ditampilkan ke teman serta pengguna yang mencari IDmu.",
+  "NSLocationAlwaysAndWhenInUseUsageDescription": "Data lokasi dikumpulkan di latar belakang dan saat menggunakan aplikasi untuk membagikan lokasimu dengan teman-temanmu. Data lokasi ditampilkan di layarmu dan juga temanmu.",
+  "NSLocationAlwaysUsageDescription": "Data lokasi terus dikumpulkan di latar belakang untuk berbagi lokasi dengan teman. Data lokasi ditampilkan di layarmu dan juga temanmu.",
+  "NSLocationWhenInUseUsageDescription": "Data lokasi dikumpulkan saat menggunakan aplikasi untuk berbagi informasi lokasi dengan teman. Data lokasi ditampilkan di layarmu dan juga temanmu.",
+  "NSMotionUsageDescription": "Gunakan data gerakan untuk mengoptimalkan berapa kali aplikasi memperoleh informasi lokasi.",
+  "NSPhotoLibraryUsageDescription": "Gambar yang dipilih dari album akan digunakan sebagai foto profil dan ditampilkan ke teman dan juga pengguna yang mencari IDmu.",
   "title": "Locket",
   "setup": {
     "signInWithApple": "Masuk dengan Apple",
@@ -7,86 +13,82 @@
     "signInWithInstagram": "Masuk dengan Instagram"
   },
   "profile": {
-    "nickname": {
-      "title": "Hai! Siapa nama kamu?",
-      "placeholder": "Nama kamu"
-    },
+    "nickname": { "title": "Hai! Siapa namamu?", "placeholder": "Nama kamu" },
     "profileImage": {
       "title": "Pilih foto profilmu!",
       "permission": {
-        "title": "Izinkan akses ke foto",
-        "description": "Locket harus diizinkan mengakses foto",
-        "ok": "Dimengerti 👍"
+        "title": "Izinkan akses foto",
+        "description": "Locket membutuhkan akses ke fotomu agar kamu bisa memilih foto profil",
+        "ok": "oke 👍"
       }
     },
     "birthday": {
-      "title": "Kapan kamu ulang tahun?",
-      "year": "tahun",
-      "month": "bulan",
-      "day": "tanggal",
+      "title": "Kamu lahirnya kapan?",
+      "year": "Tahun",
+      "month": "Bulan",
+      "day": "Tanggal",
       "errorMessage": {
-        "tryAgain": "silakan coba lagi",
-        "nonSenseMessage": "Tanggal yang dimasukkan tidak ada artinya 🤡",
-        "reallyBornInTitle": "Apakah Anda benar-benar lahir pada tahun $year?",
-        "reallyBornInMessage": "Terima kasih atas perjalanan waktu Anda🙏",
-        "ok": "Dimengerti 👍"
+        "tryAgain": "Yuk coba lagi!",
+        "nonSenseMessage": "Tanggal yang kamu masukkan sepertinya tidak masuk akal 🤡",
+        "reallyBornInTitle": "Kamu sungguh lahir tahun ${year}, huh?",
+        "reallyBornInMessage": "Keren banget kamu teleportasi dari masa depan kesini! 👽",
+        "ok": "Oke"
       }
     },
-    "gender": {
-      "title": "Sebutkan gendermu"
-    },
+    "gender": { "title": "Pilih gendermu" },
     "locketId": {
-      "title": "LUbah Locket ID kamu",
+      "title": "Ubah Locket IDmu",
       "placeholder": "Locket ID",
       "errorMessage": {
-        "enterLocketId": "Silakan masukkan id locket Anda!",
-        "onlyAlphabet": "Masukkan karakter alfanumerik saja!",
-        "lessThan12": "Masukkan hingga 12 karakter!"
+        "enterLocketId": "Masukkan Locket ID",
+        "onlyAlphabet": "Hanya huruf",
+        "lessThan12": "Kurang dari 12 karakter"
       }
     }
   },
   "settings": {
     "title": "Pengaturan",
     "account": {
-      "title": "akun",
-      "profileImage": "foto profil",
-      "nickname": "nama lengkap",
+      "title": "Akun",
+      "profileImage": "Foto Profil",
+      "nickname": "Nama",
       "locketId": "Locket ID",
-      "birthday": "tanggal lahir",
-      "gender": "jenis kelamin",
+      "birthday": "Tanggal Lahir",
+      "gender": "Gender",
       "deleteAccount": {
-        "title": "hapus akun",
-        "warning": "apa kamu yakin untuk menghapus akun?"
+        "title": "Hapus Akun",
+        "warning": "Kamu yakin mau menghapus akunmu?"
       }
     },
     "ninjaMode": {
       "title": "Mode Ninja",
-      "description": "Mengubah apa yang dapat dilihat oleh $nickname",
+      "description": "Ubah dengan apa yang bisa dilihat ${nickname}",
       "option": {
         "preciseLocation": {
-          "title": "Lokasi Sesuai",
-          "concise": "Sesuai",
-          "description": "Temanmu melihat dengan tepat kamu dimana"
+          "title": "Lokasi Tepat",
+          "concise": "Tepat",
+          "description": "Temanmu melihat dengan tepat dimana kamu berada"
         },
         "blurredLocation": {
           "title": "Buramkan Lokasi",
           "concise": "Buramkan",
-          "description": "Teman yang diatur ke \"Buramkan\" akan melihat tampilan real-time namun kasar di mana kamu berada.",
-          "warning": "Teman yang kamu atur ke \"Buramkan\" bisa tahu kalau kamu telah memburamkannya"
+          "description": "Teman yang diatur ke \\\"Buramkan\\\" akan melihat tampilan real-time namun kasar di mana kamu berada.",
+          "warning": "Teman yang kamu atur ke \\\"Buramkan\\\" bisa tahu kalau kamu telah memburamkannya."
         },
         "frozenLocation": {
           "title": "Bekukan Lokasi",
           "concise": "Bekukan",
-          "description": "Teman yang diatur ke \"Beku\" akan melihat lokasi yang sama seperti sebelum kamu mengatur lokasi.",
-          "warning": "Teman yang kamu atur ke \"BEKU\" tidak bisa tahu kalau kamu telah memburamkannya"
+          "description": "Teman yang diatur ke \\\"Beku\\\" akan melihat lokasi yang sama seperti sebelum kamu mengatur lokasi.",
+          "warning": "Teman yang kamu atur ke \\\"Beku\\\" tidak bisa tahu kalau kamu telah membekukannya."
         }
-      }
+      },
+      "selectAll": "select all"
     },
     "privacy": {
-      "title": "pengaturan privasi",
+      "title": "Pengaturan Privasi",
       "optOutFromSuggestion": {
-        "title": "Tidak muncul didaftar \"Kamu mungkin mengenal mereka\"",
-        "description": "Aktifkan pengaturan ini kalau kamu tidak ingin muncul dalam daftar \"Kamu mungkin mengenal mereka\"."
+        "title": "Tidak muncul didaftar \\\"Kamu mungkin mengenal mereka\\\".",
+        "description": "Aktifkan pengaturan ini kalau kamu tidak ingin muncul dalam daftar \\\"Kamu mungkin mengenal mereka\\\"."
       },
       "constraintRequestOnlyWithID": {
         "title": "Batasi pertemanan Locket ID",
@@ -95,66 +97,102 @@
     },
     "about": {
       "title": "Tentang Locket",
-      "privacyPolicy": "Privacy Policy",
-      "followUs": "Ikuti kami untuk informasi lebih lanjut！"
+      "privacyPolicy": "Syarat & Ketentuan",
+      "homepage": "website",
+      "review": "rate Locket",
+      "version": "version",
+      "followUs": "Follow kami untuk info lebih lanjut!"
     },
-    "help": {
-      "title": "bantuan",
-      "contactForm": "Formulir kontak"
-    },
+    "help": { "title": "Bantuan", "contactForm": "Form Kontak" },
     "mapOption": {
       "title": "Pilihan Maps",
       "mapOptions": {
         "light": "Mode Terang",
         "dark": "Mode Gelap",
-        "satellite": "Mode Satellite"
+        "satellite": "satellite"
       }
     },
     "memoryOfZenly": {
       "title": "Memori dari Zenly",
       "memories": {
-        "domesticCities": "Jumlah kota domestik yang dikunjungi",
+        "domesticCities": "number of domestic cities visited",
         "days": "Hari-hari dengan Zenly",
         "nightPlaces": "Tempat Menginap",
         "streaks": "Login Streak 🔥",
         "countries": "Negara-negara yang dikunjungi",
-        "globalCities": "Jumlah kota di dunia yang dikunjungi",
-        "completedCities": "Negara-negara yang dikunjungi",
+        "globalCities": "number of global cities visited",
+        "completedCities": "Kota yang Ditamatkan",
         "screenshot": {
           "title": "Screenshot jejak kaki",
           "fullScreen": "Masuk Full Screen"
         }
       },
-      "unlock": "Buka dengan $num teman yang diundang",
-      "reflect": "Merefleksikan data zenly",
+      "unlock": "Buka dengan ${num} teman yang diundang",
+      "reflect": "Merefleksikan data Zenly",
       "message": "Layanan ini disediakan oleh tim"
     },
-    "streak": {
-      "text": "$streak hari login streak"
+    "roadmap": {
+      "title": "roadmap",
+      "category": {
+        "toDo": "to be implemented",
+        "done": "already implemented"
+      },
+      "start": {
+        "title": "Start",
+        "time": "End of Dec"
+      },
+      "versions": {
+        "v101": ["location sharing", "notifications", "user block"],
+        "v102": ["pin behavior"],
+        "v103": ["chat", "internationalization"],
+        "v105": ["id sharing (QR code)", "map options (light/dark)", "fusion"],
+        "v106": [
+          "ninja mode",
+          "search",
+          "friends you might know",
+          "add app icons",
+          "memory of zenly"
+        ],
+        "v110": ["mark on read", "announce", "stamps"],
+        "v130": [
+          "images in chat",
+          "satellite map",
+          "reflect zenly data",
+          "review page",
+          "fix fusion pin"
+        ],
+        "v140": ["bump", "improve stamp feature", "24h images"],
+        "v150": ["region name"],
+        "v160": ["what's up"],
+        "v170": ["improvement of location"],
+        "v180": ["pin animation"],
+        "tbd": ["explore", "streak", "rankings", "stamp mash", "place search"]
+      }
     },
+    "streak": { "text": "${streak} hari login streak" },
     "iconOption": {
-      "title": "Icon Aplikasi",
+      "title": "Ikon Aplikasi",
       "unlock": {
-        "title": "🔓 Penuhi persyaratan dan buka kunci",
-        "condition": "Tambahkan $friendCount sebagai teman!"
+        "title": "Penuhi persyaratan dan buka kunci",
+        "condition": "Tambahkan ${friendCount} sebagai teman!"
       }
     }
   },
   "permission": {
     "always": {
-      "title": "Atur lokasi ke \"Selalu\"",
+      "title": "Atur lokasi ke \\\"Selalu\\\"",
       "step1": "Buka pengaturan lewat tombol di bawah ini",
-      "step2": "Lalu pilih 'Selalu'",
+      "step2": "Lalu pilih \\\"Selalu\\\"",
       "step3": "Ubah pengaturan lokasimu jadi Locket dapat menggunakan lokasimu dengan akurat",
       "step4": "Kembali ke Locket",
       "openSettings": "Buka Pengaturan",
-      "disclosure": "Locket mengumpulkan data lokasi bahkan ketika aplikasi ditutup atau tidak digunakan, untuk berbagi data lokasi dengan teman dan menyimpan jejak."
+      "disclosure": "Locket mengumpulkan data lokasi untuk mengaktifkan berbagi lokasi dengan temanmu, menyimpan jejak kakimu bahkan saat aplikasi ditutup atau tidak digunakan."
     },
     "whenInUse": {
       "title": "Kamu dimana?",
       "findMe": "Temukan Aku",
       "whyCollectLocation": "Mengapa Locket mengumpulkan data lokasi?",
-      "description": "Locket memungkinkan kamu untuk melihat apa yang dilakukan temanmu bahkan ketika aplikasi mereka ditutup. \n\nTolong izinkan Locket untuk menggunakan lokasimu saat aplikasi ditutup agar temanmu dapat menikmati pengalaman yang sama."
+      "description": "Locket memungkinkan kamu untuk melihat apa yang dilakukan temanmu bahkan ketika aplikasi mereka ditutup. \\n\\nTolong izinkan Locket untuk menggunakan lokasimu saat aplikasi ditutup agar temanmu dapat menikmati pengalaman yang sama."
     },
     "batteryOptimization": {
       "title": "Background proses Locket harus diaktifkan",
@@ -165,22 +203,23 @@
       "decline": {
         "title": "Jangan izinkan",
         "confirm": "Kamu sudah yakin?",
-        "description": "Kamu tidak akan lagi menerima notifikasi untuk permintaan pertemanan dan pesan. Kamu bisa mematikan notifikasi yang tidak kamu inginkan dari pengaturan."
+        "description": "Kamu tidak akan lagi menerima notifikasi untuk permintaan pertemanan dan pesan\\Kamu bisa mematikan notifikasi yang tidak kamu inginkan dari pengaturan."
       }
     },
     "motionActivity": {
       "title": "Aktifkan pengenalan aktifitas",
-      "titleiOS": "Mengaktifkan gerakan dan kebugaran.",
+      "titleiOS": "Aktifkan gerak & kebugaran",
       "whyCollect": {
         "title": "Mengapa Locket mengumpulkan data aktifitas pergerakan?",
-        "titleiOS": "Mengapa Locket mengumpulkan informasi gerakan dan kebugaran?",
-        "description": "Locket mendapat lokasi di latar belakang untuk membagikan lokasimu dengan teman-temanmu.\n\nUntuk mengurangi konsumsi baterai di latar belakang, Locket mengoptimalkan jumlah pengambilan lokasi dengan merekam aktivitas pergerakan."
+        "titleiOS": "Mengapa Locket mengumpulkan data gerakan & kebugaran?",
+        "description": "Locket mendapat lokasi di latar belakang untuk membagikan lokasimu dengan teman-temanmu.\\n\\nUntuk mengurangi konsumsi baterai di latar belakang, Locket mengoptimalkan jumlah pengambilan lokasi dengan merekam aktivitas pergerakan."
       }
     }
   },
   "userDetail": {
-    "friendCount": "$count Teman",
-    "previewFriendCount": "$count teman di Locket",
+    "friendCount": "${count} TEMAN",
+    "mutualFriendCount": "${count} TEMAN BERSAMA",
+    "previewFriendCount": "${count}  teman di Locket",
     "add": "Tambahkan",
     "deleteFriend": "Hapus Teman"
   },
@@ -188,104 +227,85 @@
     "title": "Tambah Teman",
     "addByLocketID": {
       "title": "gunakan Locket ID",
-      "search": {
-        "placeholder": "Locket ID"
-      },
+      "search": { "placeholder": "Locket ID" },
       "result": {
         "mutualFriends": "Teman Mutual",
         "noMutualFriends": "0 teman",
         "cannotSentRequest": "Tidak bisa mengirim permintaan ke pengguna ini",
-        "request": "Kirim Permintaan",
+        "request": "REQUEST SENT",
         "requestSent": "Permintaan Selesai"
       }
     },
-    "shareIdOnInstagram": {
-      "title": "Berbagi ID di Instagram"
-    },
+    "shareIdOnInstagram": { "title": "Share ID di Instagram" },
     "bump": {
-      "title": "tambahkan dengan bump",
-      "content": "Goyangkan ponsel Anda dengan teman-teman Anda!"
+      "title": "add by bump",
+      "content": "shake your phone with your friends!"
     },
-    "nthUser": "$nickName adalah pengguna Locket ke-${registerNum}!",
-    "whatAboutYou": "Anda nomor berapa?",
+    "nthUser": "${nickname} adalah pengguna ke-${registerNum} di Locket!",
+    "whatAboutYou": "Bagaimana dengan kamu?",
     "receivedRequests": "Permintaan Diterima",
-    "sentRequests": "Mengirim Permintaan",
+    "sentRequests": "REQUESTS SENT",
     "handleRequest": {
       "accept": "Terima",
       "decline": "Tolak",
-      "message": "Kamu dapat permintaan pertemanan dari\n$friendName!"
+      "message": "Kamu dapat permintaan pertemanan dari ${friendName}!"
     }
   },
-  "newFriend": {
-    "title": "$nickName\nsekarang jadi temanmu!"
-  },
-  "deleteFriend": {
-    "title": "Hapus Teman"
-  },
+  "newFriend": { "title": "${nickName} sekarang jadi temanmu!" },
+  "deleteFriend": { "title": "Hapus Teman" },
   "search": {
     "title": "Cari",
-    "friends": {
-      "title": "Teman"
-    },
-    "friendSuggestion": {
-      "title": "Kamu mungkin mengenal mereka! 🫣"
-    }
+    "friends": { "title": "Teman" },
+    "friendSuggestion": { "title": "Kamu mungkin mengenal mereka! 🫣" }
   },
   "fusion": {
-    "friendTitle": {
-      "one": "$count teman",
-      "other": "$count teman"
-    },
-    "withMe": "dengan saya",
+    "friendTitle": { "one": "${count}  teman", "other": "${count}  teman" },
+    "withMe": "dan kamu",
     "you": "kamu",
     "areHere": "disini"
   },
   "chat": {
-    "addGroup": {
-      "selectFriends": "Pilih teman untuk ditambahkan:"
-    },
-    "addMembers": {
-      "add": "menambahkan(${count})"
-    },
+    "addGroup": { "selectFriends": "Pilih teman untuk ditambahkan" },
+    "addMembers": { "add": "Tambahkan ${count}" },
     "firstMessage": "Kirim pesan!",
-    "image": "gambar",
+    "clearChatHistory": "Menghapus riwayat obrolan",
+    "image": "image",
     "placeholder": "Pesan",
     "info": {
-      "edit": {
-        "title": "Ubah nama grup?",
-        "placeholder": "Nama grup"
-      },
-      "inviteGroup": {
-        "title": "Tambahkan ke grup",
-        "yourFriends": "Teman-temanmu"
-      },
-      "mute": "bisu",
-      "leave": "tinggalkan obrolan",
-      "memberCount": "$count anggota",
+      "edit": { "title": "Ubah nama grup?", "placeholder": "Nama grup" },
+      "inviteGroup": { "title": "Tambahkan ke grup", "yourFriends": "Temanmu" },
+      "mute": "Bisukan",
+      "leave": "Tinggalkan",
+      "memberCount": "${count} member",
       "leaveDialog": {
-        "title": "Keluar dari grup",
-        "warning": "apakah Anda yakin benar-benar ingin pergi?"
+        "title": "Tinggalkan grup ini",
+        "warning": "Sudah yakin meninggalkan grup?"
       }
     },
-    "joined": "$names bergabung dalam obrolan",
-    "left": "$name meninggalkan obrolan",
-    "readMembers": "$readMemberNames membaca obrolan",
+    "joined": "${names} bergabung dengan obrolan!",
+    "left": "${name} telah meninggalkan obrolan",
+    "readMembers": "dibaca oleh ${readMemberNames}",
     "whenNoFriend": {
-      "addFriend": "tambahkan teman Anda",
-      "letsChat": "mari kita mulai mengobrol!",
-      "findLocation": "mari kita ketahui di mana mereka berada!",
-      "shareId": "bagikan ID saya"
+      "addFriend": "Tambahkan teman",
+      "letsChat": "dan mulai obrolan!",
+      "findLocation": "and find where they are!",
+      "shareId": "Share ID ke Instagram Story"
     },
     "download": {
-      "title": "unduh",
-      "success": "Gambar sudah disimpan!",
-      "error": "Gagal menyimpan gambar"
-    }
+      "title": "download",
+      "success": "The image has been saved!",
+      "error": "Failed to save the image"
+    },
+    "camera": {
+      "permissionError": "You're not allowed access to the camera",
+      "openSettings": "Open Settings"
+    },
+    "playStamp": "tap to play emojis",
+    "receivedWhatsUp": "received what's up!",
+    "sentWhatsUp": "sent what's up!",
+    "receivedWhatsUpResponse": "received what's up response!"
   },
-  "userBlock": {
-    "block": "Blokir",
-    "unBlock": "Buka Blokir"
-  },
+  "userBlock": { "block": "Blokir", "unBlock": "Buka Blokir" },
   "userRelation": {
     "myself": "kamu",
     "friend": "teman",
@@ -300,27 +320,25 @@
     "other": "Lainnya",
     "noAnswer": "Tidak Ada Jawaban"
   },
-  "birthday": {
-    "noAnswer": "Tidak Ada Jawaban"
-  },
+  "birthday": { "noAnswer": "Tidak Ada Jawaban" },
   "place": {
     "school": "Sekolah",
     "workplace": "Kantor",
     "nightPlace": "Tempat Menginap",
     "home": "Rumah",
-    "isYourPlace": "Apakah ini $placeName mu saat ini?",
-    "notYourPlace": "Bukan $placeName saat ini",
+    "isYourPlace": "Apakah ini ${placeName} mu saat ini?",
+    "notYourPlace": "Bukan ${placeName} saat ini",
     "neverShowThisPlace": "Jangan pernah tampilkan tempat ini di mapku",
-    "relocate": "Lokasikan ulang $placeName",
-    "youWereThere": "Kamu sudah disana sejak $time",
-    "changePlace": "Lokasikan ulang $placeName",
-    "yesThisis": "Ya, ini $placeName ku",
-    "placeChangeLimitTitle": "$n update tersisa bulan ini",
-    "placeChangeLimitBody": "Kamu hanya bisa memperbarui tempat ini $n kali bulan ini, perpindahan membutuhkan waktu",
+    "relocate": "Lokasikan ulang ${placeName}",
+    "youWereThere": "Kamu sudah disana sejak ${time}",
+    "changePlace": "Lokasikan ulang ${placeName}",
+    "yesThisis": "Ya, ini ${placeName} ku",
+    "placeChangeLimitTitle": "${n} update tersisa bulan ini",
+    "placeChangeLimitBody": "Kamu hanya bisa memperbarui tempat ini ${n} kali bulan ini, perpindahan membutuhkan waktu",
     "gotcha": "Gotcha!",
-    "placeChangeLimitReatchedTitle": "Kamu sedang berpindah📦",
-    "placeChangeLimitReatchedBody": "Kamu bergerak terlalu cepat, aku harus memintamu untuk mencoba lagi nanti karena perpindahan membutuhkan waktu",
-    "registerAs": "$Terdaftar sebagai $placeName",
+    "placeChangeLimitReachedTitle": "Kamu sedang berpindah📦",
+    "placeChangeLimitReachedBody": "Kamu bergerak terlalu cepat, aku harus memintamu untuk mencoba lagi nanti karena perpindahan membutuhkan waktu",
+    "registerAs": "Terdaftar sebagai ${placeName}",
     "notRegister": "Jangan mendaftar",
     "isReallyOkToNotRegisterTitle": "Sembunyikan tempat ini dari mapku",
     "isReallyOkToNotRegisterBody": "Sekali hilang, itu akan hilang. Jadi pastikan kamu benar-benar ingin menyembunyikannya!!",
@@ -337,14 +355,14 @@
   "or": "atau",
   "error": {
     "locketIdAlreadyTaken": "ID ini sudah digunakan",
-    "locketIdNotAllowed": "ID Liontin ini tidak diperbolehkan. Silakan pilih yang lain.",
-    "nicknameNotAllowed": "Nama panggilan ini tidak diperbolehkan. Pilihlah nama panggilan yang lain.",
+    "locketIdNotAllowed": "this locketId not allowed. Please choose a different one.",
+    "nicknameNotAllowed": "this nickname not allowed. Please choose a different one.",
     "oops": "Oops!",
     "locketIdInvalidCharacters": "Ada karakter yang tidak bisa kamu gunakan nih! Gunakan angka atau huruf",
     "failedUploadingImage": "Unggah gambar gagal. Silahkan coba lagi dengan internet yang stabil.",
     "networkError": "Apakah kamu online?",
     "checkConnectionAndReboot": "Cek koneksi mu dan segera nyalakan ulang perangkatmu!🛠",
-    "sessionExpired": "Sesi berakhir, kembali ke layar masuk",
+    "sessionExpired": "Session has expired, return to login screen",
     "alreadyFriends": "Kalian sudah berteman, Kalian sangat dekat!🤩",
     "selfRequest": "Kamu tidak bisa mengirim permintaan ke diri sendiri... Apakah kamu mau aku jadi temanmu?🥺",
     "duplicateRequest": "Jangan mengirim permintaan yang sama lebih dari dua kali!🙅‍♀️",
@@ -358,45 +376,27 @@
     },
     "input": "Masukan error"
   },
-  "shareLink": "Bagikan tautan",
-  "shareStory": "Bagikan di Instagram",
-  "shareOnTwitter": "LocketID saya adalah ${locketId}!",
-  "idShareAddFriend": "$nickName sedang menunggumu!",
+  "shareLink": "Share di Media Sosialmu!💁🏻‍♀️",
+  "shareStory": "Share di Instagram",
+  "shareOnTwitter": "LocketIDku adalah ${locketId}!",
+  "idShareAddFriend": "${nickName} sedang menunggumu!",
   "duration": {
-    "year": {
-      "one": "$count tahun",
-      "other": "$count tahun"
-    },
-    "month": {
-      "one": "$count bulan",
-      "other": "$count bulan"
-    },
-    "day": {
-      "one": "$count hari",
-      "other": "$count hari"
-    },
-    "hour": {
-      "one": "$count jam",
-      "other": "$count lam"
-    },
-    "minute": {
-      "one": "$count menit",
-      "other": "$count menit"
-    },
-    "second": {
-      "one": "$count detik",
-      "other": "$count detik"
-    },
+    "year": { "one": "${count}  tahun", "other": "${count}  tahun" },
+    "month": { "one": "${count}  bulan", "other": "${count}  bulan" },
+    "day": { "one": "${count}  hari", "other": "${count}  hari" },
+    "hour": { "one": "${count}  jam", "other": "${count}  jam" },
+    "minute": { "one": "${count}  menit", "other": "${count}  menit" },
+    "second": { "one": "${count}  detik", "other": "${count}  detik" },
     "ago": "yang lalu",
     "now": "sekarang"
   },
   "shortDuration": {
-    "year": "${count}T",
-    "month": "${count}B",
-    "day": "${count}H",
-    "hour": "${count}J",
-    "minute": "${count}M",
-    "second": "${count}D",
+    "year": "${count} T",
+    "month": "${count} B",
+    "day": "${count} H",
+    "hour": "${count} J",
+    "minute": "${count} M",
+    "second": "${count} D",
     "ago": "lalu",
     "now": "sekarang"
   },
@@ -410,42 +410,34 @@
     "ago": "lalu",
     "now": "sekarang"
   },
-  "comingSoon": "Coming soon!",
-  "latestUpdate": {
-    "title": "Ada update terbaru!"
-  },
+  "comingSoon": "Coming Soon!",
+  "latestUpdate": { "title": "Ada update terbaru!" },
   "later": "nanti",
-  "pinInfo": {
-    "blurred": "buram"
-  },
-  "updateDialog": {
-    "later": "nanti",
-    "essential": "perlu diinstal"
-  },
+  "pinInfo": { "blurred": "Diburamkan" },
+  "updateDialog": { "later": "nanti", "essential": "perlu diinstal" },
   "announce": {
     "twitter": {
-      "title": "Bagaimana cara kerjanya untuk Anda?",
-      "body": "Beritahu kami pendapat Anda tentang Locket di Twitter!",
+      "title": "Bagaimana pengalamanmu saat menggunakan Locket?",
+      "body": "Tolong beri tahu kami pendapatmu di Twitter!🐦",
       "button": "Tweet"
     },
     "instagram": {
-      "title": "Bagikan LocketID dengan teman-teman Anda di Instagram!",
+      "title": "Ayo share LocketIDmu di Instagram!",
       "body": "",
-      "button": "Membuat cerita."
+      "button": "Buat story"
     },
     "review": {
-      "title": "Bagaimana Anda menyukai liontin ini?",
-      "body": "Tolong tuliskan ulasan Anda di toko aplikasi!",
-      "button": "Buka Toko"
+      "title": "How do you like the locket?",
+      "body": "Please write us your review in the app store!",
+      "button": "Open Store"
     },
-    "other": {},
-    "hideFor7Days": "Bersembunyi selama 7 hari"
+    "hideFor7Days": "Sembunyikan selama 7 hari"
   },
-  "detail": "Lihatlah lebih dekat",
+  "detail": "Lihat detail",
   "stamps": {
     "unlock": {
-      "title": "🔓 membuat teman dan membuka kunci",
-      "condition": "buatlah $friendCount teman!\nKampanye penambahan teman sedang berlangsung!\nMenangkan beberapa hadiah menarik dalam undian!"
+      "title": "🔓 Penuhi persyaratan dan buka kunci",
+      "condition": "Tambahkan ${friendCount} sebagai teman!"
     }
   }
 }

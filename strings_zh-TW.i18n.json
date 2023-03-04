@@ -1,0 +1,428 @@
+{
+  "title": "Locket",
+  "setup": {
+    "signInWithApple": "Sign in with Apple",
+    "signInWithGoogle": "Sign in with Google",
+    "signInWithTwitter": "Sign in with Twitter",
+    "signInWithInstagram": "Sign in with Instagram"
+  },
+  "profile": {
+    "nickname": { "title": "嗨！你的名字是 ?", "placeholder": "你的名字" },
+    "profileImage": {
+      "title": "請選擇你的大頭貼照!",
+      "permission": {
+        "title": "允許取用照片",
+        "description": "Locket 需要取用你的照片以設定大頭貼照",
+        "ok": "ok 👍"
+      }
+    },
+    "birthday": {
+      "title": "你的生日是在 ?",
+      "year": "年",
+      "month": "月",
+      "day": "日",
+      "errorMessage": {
+        "tryAgain": "請再試一次",
+        "nonSenseMessage": "輸入的日期好像不太正確🤡",
+        "reallyBornInTitle": "你真的是在${year}年出生的嗎？",
+        "reallyBornInMessage": "從未來穿越到現在真是辛苦了🙏",
+        "ok": "了解 👍"
+      }
+    },
+    "gender": { "title": "你的性別是？" },
+    "locketId": {
+      "title": "編輯你的Locket ID",
+      "placeholder": "Locket ID",
+      "errorMessage": {
+        "enterLocketId": "請輸入Locket ID",
+        "onlyAlphabet": "只能輸入英文字母與數字！",
+        "lessThan12": "請不要超過12個字元！"
+      }
+    }
+  },
+  "settings": {
+    "title": "設定",
+    "account": {
+      "title": "帳號",
+      "profileImage": "大頭貼照",
+      "nickname": "名字",
+      "locketId": "Locket ID",
+      "birthday": "生日",
+      "gender": "性別",
+      "deleteAccount": { "title": "刪除帳號", "warning": "你確定要刪除嗎 ?" }
+    },
+    "ninjaMode": {
+      "title": "忍者模式",
+      "description": "變更 ${nickname} 可以看到的內容",
+      "option": {
+        "preciseLocation": {
+          "title": "精確位置",
+          "concise": "精確",
+          "description": "設定後你的好友將會精確地知道你的位置"
+        },
+        "blurredLocation": {
+          "title": "模糊位置",
+          "concise": "模糊",
+          "description": "設定後你的好友將會知道你大致上的位置",
+          "warning": "你的好友將會知道你將他們設定為「模糊」。"
+        },
+        "frozenLocation": {
+          "title": "凍結位置",
+          "concise": "凍結",
+          "description": "設定後你的好友將看到設定時的所在位置，並維持不變。",
+          "warning": "你的好友將不會知道你將他們設定為「凍結」。"
+        }
+      },
+      "selectAll": "select all"
+    },
+    "privacy": {
+      "title": "隱私權設定",
+      "optOutFromSuggestion": {
+        "title": "關閉「你可能認識的使用者」",
+        "description": "開啟後你將不會出現在「你可能認識的使用者」中"
+      },
+      "constraintRequestOnlyWithID": {
+        "title": "Locket ID 交友限制",
+        "description": "只有與你有共同好友的使用者才能將你新增為好友"
+      }
+    },
+    "about": {
+      "title": "關於 Locket ",
+      "privacyPolicy": "隱私權政策",
+      "homepage": "website",
+      "review": "rate Locket",
+      "version": "version",
+      "followUs": "追蹤我們以了解更多訊息！"
+    },
+    "help": { "title": "使用說明", "contactForm": "聯絡方式" },
+    "mapOption": {
+      "title": "地圖樣式",
+      "mapOptions": {
+        "light": "淺色模式",
+        "dark": "深色模式",
+        "satellite": "衛星"
+      }
+    },
+    "memoryOfZenly": {
+      "title": "Zenly 的回憶",
+      "memories": {
+        "domesticCities": "去過的國內城市數目",
+        "days": "Zenly 的使用天數",
+        "nightPlaces": "夜晚好去處",
+        "streaks": "連續登錄",
+        "countries": "去過的國家",
+        "globalCities": "去過的國際城市數目",
+        "completedCities": "完成的城市",
+        "screenshot": { "title": "足跡截圖", "fullScreen": "進入全螢幕" }
+      },
+      "unlock": "邀請${num}位好友即可解鎖",
+      "reflect": "呈現Zenly的資料。",
+      "message": "本服務是由團隊提供"
+    },
+    "roadmap": {
+      "title": "roadmap",
+      "category": {
+        "toDo": "to be implemented",
+        "done": "already implemented"
+      },
+      "start": {
+        "title": "Start",
+        "time": "End of Dec"
+      },
+      "versions": {
+        "v101": ["location sharing", "notifications", "user block"],
+        "v102": ["pin behavior"],
+        "v103": ["chat", "internationalization"],
+        "v105": ["id sharing (QR code)", "map options (light/dark)", "fusion"],
+        "v106": [
+          "ninja mode",
+          "search",
+          "friends you might know",
+          "add app icons",
+          "memory of zenly"
+        ],
+        "v110": ["mark on read", "announce", "stamps"],
+        "v130": [
+          "images in chat",
+          "satellite map",
+          "reflect zenly data",
+          "review page",
+          "fix fusion pin"
+        ],
+        "v140": ["bump", "improve stamp feature", "24h images"],
+        "v150": ["region name"],
+        "v160": ["what's up"],
+        "v170": ["improvement of location"],
+        "v180": ["pin animation"],
+        "tbd": ["explore", "streak", "rankings", "stamp mash", "place search"]
+      }
+    },
+    "streak": { "text": "${streak} 天連續登錄 !" },
+    "iconOption": {
+      "title": "APP ICON",
+      "unlock": {
+        "title": "達成條件即可解除",
+        "condition": "新增${friendCount}位好友！"
+      }
+    }
+  },
+  "permission": {
+    "always": {
+      "title": "將位置設定為「永遠」",
+      "step1": "請按最下方的按鈕來打開設定。",
+      "step2": "請選擇「永遠」",
+      "step3": "請更改你的設定如此Locket才能取得你的位置。",
+      "step4": "返回Locket ",
+      "openSettings": "打開設定",
+      "disclosure": "Locket 為了持續追蹤好友們的動向以及你的足跡，在手機關閉或是沒有使用應用程式時仍會持續搜集你的位置資料。"
+    },
+    "whenInUse": {
+      "title": "你在哪裡？",
+      "findMe": "尋找自己",
+      "whyCollectLocation": "為什麼Locket 要存取我的位置資料 ?",
+      "description": "Locket允許你在朋友未使用App時仍能追蹤他們的位置。\\n\\n為了讓你的朋友也有一樣的體驗，請你允許Locket 在未打開App時也可以持續追蹤你的位置。"
+    },
+    "batteryOptimization": {
+      "title": "請允許Locket在背景繼續處理",
+      "buttonText": "請開啟背景處理"
+    },
+    "notification": {
+      "title": "允許通知",
+      "decline": {
+        "title": "不予許",
+        "confirm": "你確定嗎？",
+        "description": "你將不會再收到好友邀請或訊息通知 \\n 你可以在設定關閉提醒。"
+      }
+    },
+    "motionActivity": {
+      "title": "開啟活動識別",
+      "titleiOS": "開啟動作與健身",
+      "whyCollect": {
+        "title": "為什麼要存取我的移動資料 ?",
+        "titleiOS": "為什麼Locket 要搜集動作與健身資料？",
+        "description": "Locket 在背景持續取得你的位置資料。\\n\\n為了減少背景的電量消耗，Locket 從動作資料最佳化位置的取得資料的頻率。"
+      }
+    }
+  },
+  "userDetail": {
+    "friendCount": "${count}  位好友",
+    "mutualFriendCount": "${count} 共同的朋友",
+    "previewFriendCount": "${count}  位好友",
+    "add": "加好友",
+    "deleteFriend": "刪除好友"
+  },
+  "addFriend": {
+    "title": "新增好友",
+    "addByLocketID": {
+      "title": "透過Locket ID",
+      "search": { "placeholder": "Locket ID" },
+      "result": {
+        "mutualFriends": "共同好友",
+        "noMutualFriends": "0位",
+        "cannotSentRequest": "無法寄送邀請給該使用者",
+        "request": "已送出邀請",
+        "requestSent": "已接受邀請"
+      }
+    },
+    "shareIdOnInstagram": { "title": "在 Instagram 上分享 ID" },
+    "bump": {
+      "title": "搖一搖來新增好友",
+      "content": "與你的好友一起搖晃手機！ "
+    },
+    "nthUser": "${nickname} 是第${registerNum}位Locket 的使用者！",
+    "whatAboutYou": "你呢？",
+    "receivedRequests": "已收到邀請",
+    "sentRequests": "REQUESTS SENT",
+    "handleRequest": {
+      "accept": "接受",
+      "decline": "拒絕",
+      "message": "你收到了来自${friendName}的好友请求!"
+    }
+  },
+  "newFriend": { "title": "${nickName}已成為你的好友！" },
+  "deleteFriend": { "title": "刪除好友" },
+  "search": {
+    "title": "搜尋",
+    "friends": { "title": "好友" },
+    "friendSuggestion": { "title": "你可能認識的使用者" }
+  },
+  "fusion": {
+    "friendTitle": { "one": "${count} 位好友", "other": "${count} 位好友" },
+    "withMe": "與你",
+    "you": "你",
+    "areHere": "在這裡"
+  },
+  "chat": {
+    "addGroup": { "selectFriends": "選擇要新增的好友" },
+    "addMembers": { "add": "新增${count}" },
+    "firstMessage": "寄送訊息 !",
+    "clearChatHistory": "clear chat history",
+    "image": "圖片",
+    "placeholder": "訊息",
+    "info": {
+      "edit": { "title": "重新命名群組", "placeholder": "群組名稱" },
+      "inviteGroup": { "title": "加入群組", "yourFriends": "你的好友" },
+      "mute": "靜音",
+      "leave": "離開",
+      "memberCount": "${count} 位成員",
+      "leaveDialog": { "title": "退出群組", "warning": "你確定要退出嗎？" }
+    },
+    "joined": "${names} 加入聊天",
+    "left": "${name} 離開聊天",
+    "readMembers": "查看 ${readMemberNames}  ",
+    "whenNoFriend": {
+      "addFriend": "新增好友",
+      "letsChat": "且聊天！",
+      "findLocation": "且找到他們的位置！",
+      "shareId": "在Instagram 限時動態上分享你的ID"
+    },
+    "download": {
+      "title": "下載",
+      "success": "已儲存圖片！",
+      "error": "圖片儲存失敗"
+    },
+    "camera": {
+      "permissionError": "You're not allowed access to the camera",
+      "openSettings": "Open Settings"
+    },
+    "playStamp": "tap to play emojis",
+    "receivedWhatsUp": "received what's up!",
+    "sentWhatsUp": "sent what's up!",
+    "receivedWhatsUpResponse": "received what's up response!"
+  },
+  "userBlock": { "block": "封鎖", "unBlock": "取消封鎖" },
+  "userRelation": {
+    "myself": "你",
+    "friend": "好友",
+    "pendingRequest": "已邀請",
+    "requested": "已送出邀請",
+    "blocked": "被封鎖",
+    "blocking": "封鎖中"
+  },
+  "gender": {
+    "male": "男性",
+    "female": "女性",
+    "other": "其他",
+    "noAnswer": "未回答"
+  },
+  "birthday": { "noAnswer": "未回答" },
+  "place": {
+    "school": "學校",
+    "workplace": "公司",
+    "nightPlace": "留宿",
+    "home": "住家",
+    "isYourPlace": "請問而這裡是${placeName}?",
+    "notYourPlace": "這裡不是${placeName}嗎？",
+    "neverShowThisPlace": "不要在我的地圖上顯示這個地點",
+    "relocate": "變更到${placeName}",
+    "youWereThere": "你在 ${time}時在這裡",
+    "changePlace": "變更到${placeName}",
+    "yesThisis": "是，這裡是我的${placeName}",
+    "placeChangeLimitTitle": "這個月還會有${n}次更新",
+    "placeChangeLimitBody": "這個地點這個月還剩下${n}次更新，移動需要時間🙃",
+    "gotcha": "了解",
+    "placeChangeLimitReachedTitle": "移動中📦",
+    "placeChangeLimitReachedBody": "你移動的有點太快了呢，請稍後再試。",
+    "registerAs": "登錄為${placeName}",
+    "notRegister": "無法登錄",
+    "isReallyOkToNotRegisterTitle": "隱藏此地點",
+    "isReallyOkToNotRegisterBody": "隱藏後將無法復原，請確定之後再繼續。",
+    "hideForever": "永久隱藏"
+  },
+  "delete": "刪除",
+  "cancel": "取消",
+  "next": "下一頁",
+  "update": "更新",
+  "create": "建立",
+  "checkOutUpdate": "敬請期待 !",
+  "ok": "OK",
+  "edit": "編輯",
+  "or": "或",
+  "error": {
+    "locketIdAlreadyTaken": "這個ID 已有人使用。",
+    "locketIdNotAllowed": "這個Locket ID 無法使用，請重新選擇。",
+    "nicknameNotAllowed": "這個名字無法使用，請重新選擇。",
+    "oops": "糟糕！",
+    "locketIdInvalidCharacters": "請不要輸入數字與英文字母以外的符號！",
+    "failedUploadingImage": "圖片上傳失敗，請檢查你的網路連線。",
+    "networkError": "你有連上網路嗎？",
+    "checkConnectionAndReboot": "請確認網路連線狀態，並重新啟動看看！",
+    "sessionExpired": "登錄已過期，返回登錄頁面",
+    "alreadyFriends": "你們已經是好友，你們感情真好！🤩",
+    "selfRequest": "無法寄送邀請給自己喔。你想要我當你的好友嗎？🥺",
+    "duplicateRequest": "請不要重複寄送交友邀請️。",
+    "notFound": "找不到該使用者🥺",
+    "checkIdAgain": "請檢查您輸入的ID 並再試一次。",
+    "modifyLocketId": "變更Locket ID",
+    "chatGroupAlreadyExists": "這個聊天群組已經存在 !",
+    "system": {
+      "title": "系統錯誤",
+      "message": "系統發生錯誤，請重新啟動應用程式。"
+    },
+    "input": "輸入錯誤"
+  },
+  "shareLink": "在社群媒體上分享",
+  "shareStory": "在Instagram 上分享",
+  "shareOnTwitter": "我的Locket ID 是${locketId}!",
+  "idShareAddFriend": "與${nickName}成為好友吧！",
+  "duration": {
+    "year": { "one": "${count} 年", "other": "${count} 年" },
+    "month": { "one": "${count} 個月", "other": "${count} 個月" },
+    "day": { "one": "${count}日", "other": "${count}日" },
+    "hour": { "one": "${count} 小時", "other": "${count} 小時" },
+    "minute": { "one": "${count}分", "other": "${count}分" },
+    "second": { "one": "${count}秒", "other": "${count}秒" },
+    "ago": "前",
+    "now": "現在"
+  },
+  "shortDuration": {
+    "year": "${count}年",
+    "month": "${count}個月",
+    "day": "${count}日",
+    "hour": "${count}小時",
+    "minute": "${count}分",
+    "second": "${count}秒",
+    "ago": "前",
+    "now": "現在"
+  },
+  "unitDuration": {
+    "year": "年",
+    "month": "個月",
+    "day": "日",
+    "hour": "小時",
+    "minute": "分",
+    "second": "秒",
+    "ago": "前",
+    "now": "現在"
+  },
+  "comingSoon": "Coming Soon ! ",
+  "latestUpdate": { "title": "有新的版本可以更新!" },
+  "later": "稍後",
+  "pinInfo": { "blurred": "模糊" },
+  "updateDialog": { "later": "稍後", "essential": "必須更新" },
+  "announce": {
+    "twitter": {
+      "title": "請問你的Locket 使用經驗如何？",
+      "body": "請在Twitter 上與我們分享你的意見!🐦",
+      "button": "推文"
+    },
+    "instagram": {
+      "title": "在Instagram 上分享你的Locket ID!",
+      "body": "",
+      "button": "建立限時動態"
+    },
+    "review": {
+      "title": "你覺得Locket 如何呢？",
+      "body": "請在App Store給予我們回饋！",
+      "button": "開啟App Store"
+    },
+    "hideFor7Days": "隱藏7天"
+  },
+  "detail": "查看細節",
+  "stamps": {
+    "unlock": {
+      "title": "達成條件以解鎖",
+      "condition": "${friendCount} 位好友！"
+    }
+  }
+}
